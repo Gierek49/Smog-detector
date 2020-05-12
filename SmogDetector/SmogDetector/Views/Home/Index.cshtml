@@ -19,7 +19,8 @@
     <div id="map"></div>
     <script>
         function initMap() {
-            
+
+
             var options = {
                 zoom: 10,
                 center: { lat: 52.2297, lng: 21.0122 }
@@ -28,18 +29,21 @@
             var map = new
                 google.maps.Map(document.getElementById('map'), options);
 
-            var marker = new google.maps.Marker({
-                position: { lat: 52.2297, lng: 21.0122 },
-                map: map,
-            });
+            // Marker na klik
+            google.maps.event.addListener(map, 'click',
+                function (event) {
+                    addMarker({ coords: event.latLng });
+                });
 
-            var infoWindow = new google.maps.InfoWindow({
-                content: '<h1>Warszawa</h1>'
-            });
 
-            marker.addListener('click', function () {
-                infoWindow.open(map, marker);
-            })
+            //Funkcja dodanie markera
+            function addMarker(props) {
+
+                var marker = new google.maps.Marker({
+                    position: props.coords,
+                    map:map
+                })
+            }
         }
     </script>
 
