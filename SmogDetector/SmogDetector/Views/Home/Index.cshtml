@@ -11,25 +11,38 @@
             height: 600px;
             width: 100%;
         }
+
+        #coordinates {
+            padding-top:30px;
+            font-size:24px;
+        }
+
     </style>
-</head>
 
-<body>
-    <h2>Smog Detector</h2>
-    <div id="map">
 
-    </div>
-    <script>
+    <script type="text/javascript">
+
+
         function initMap() {
+
+            
+            var longitude;
+            var latitude;
+            
+
 
             var myLatlng = { lat: 52.2297, lng: 21.0122 };
             var markers = [];
 
+
+
+
             var options = {
-                zoom: 11,
+                zoom: 6,
                 center: { lat: 52.2297, lng: 21.0122 }
             }
 
+            //generowanie mapy
             var map = new
                 google.maps.Map(document.getElementById('map'), options);
 
@@ -39,11 +52,11 @@
             infoWindow.open(map);
 
 
+
             // Marker na klik
             google.maps.event.addListener(map, 'click',
                 function (event) {
 
-                    //deleteMarkers();
                     addMarker({ coords: event.latLng });
 
                     infoWindow.close();
@@ -53,8 +66,20 @@
                     infoWindow.setContent(event.latLng.toString());
                     infoWindow.open(map);
 
-                    var coordinates = event.latLng;
+                    var myLatLng = event.latLng;
+                    longitude = myLatLng.lat();
+                    latitude = myLatLng.lng();
+
+                    
+                    document.getElementById('kordynatyX').innerHTML = longitude;
+                    
+                    document.getElementById('kordynatyY').innerHTML = latitude;
+
                 });
+
+
+
+
 
 
             //Funkcja dodanie markera
@@ -68,17 +93,36 @@
 
                 markers.push(marker);
             }
-
-            //Usuniecie markera
-            function deleteMarkers() {
-                clearMarkers();
-                markers = [];
-            }
         }
+
+        
+
+
     </script>
 
     <script async defer
-            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4IoYuGPVOKjjMdOPIxnrpYmD8MnODKv0&callback=initMap">
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhZmZV117mmPMCkl6zvhkplleeRQStMqY&callback=initMap">
     </script>
+</head>
+
+<body>
+
+    <h2>Smog Detector</h2>
+
+    =
+
+    <div id="map">
+
+
+
+
+    </div>
+
+
+    <div id="coordinates">
+        X <p id='kordynatyX'>  </p>
+        Y <p id='kordynatyY'></p>
+    </div>
+
 </body>
 </html>

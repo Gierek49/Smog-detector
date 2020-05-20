@@ -1,4 +1,3 @@
-C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.csprojAssemblyReference.cache
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\SmogDetector.dll.config
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\SmogDetector.dll
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\SmogDetector.pdb
@@ -76,3 +75,4 @@ C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\Microso
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.csproj.CopyComplete
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.dll
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.pdb
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.csprojAssemblyReference.cache
