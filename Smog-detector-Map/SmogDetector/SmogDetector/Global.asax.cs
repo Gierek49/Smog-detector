@@ -1,21 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Autofac;
+using Giphy;
 using System.Web.Mvc;
 using System.Web.Optimization;
 using System.Web.Routing;
-
 namespace SmogDetector
 {
     public class MvcApplication : System.Web.HttpApplication
     {
+        
         protected void Application_Start()
         {
+            RegisterComponents(new ContainerBuilder());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
+        private IContainer RegisterComponents(ContainerBuilder builder)
+        {
+          builder.RegisterType<FunnyService>().As<IFunnyService>().InstancePerLifetimeScope();
+
+            var container = builder.Build();
+
+            return container;
+
+        }
     }
 }
+ 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Giphy;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -8,11 +9,20 @@ namespace SmogDetector.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public string ImageURL { get; set; }
+
+        private readonly IFunnyService _funnyService;
+        public HomeController(IFunnyService funnyService)
         {
-            return View();
+            _funnyService = funnyService;
         }
 
+        public ActionResult Index()
+        {
+            ImageURL = _funnyService.GetRandom("cat");
+            return View();
+        }
+       
         //public ActionResult About()
         //{
         //    ViewBag.Message = "Your application description page.";

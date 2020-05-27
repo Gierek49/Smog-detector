@@ -41,13 +41,16 @@
 
                 var marker = new google.maps.Marker({
                     position: props.coords,
-                    map:map
+                    map: map
                 })
             }
         }
     </script>
-      
-    <img src="x" class="img-fluid" alt="responsive image">
+    <img src="ImageURL"/>
+    @using (Html.BeginForm())
+    {
+        <input type="button" name="button" class="FunnyService" value="Button" />
+    }
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4IoYuGPVOKjjMdOPIxnrpYmD8MnODKv0&callback=initMap">
     </script>

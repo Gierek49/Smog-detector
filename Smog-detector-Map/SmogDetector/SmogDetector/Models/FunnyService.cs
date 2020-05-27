@@ -7,19 +7,23 @@ using RestSharp;
 
 namespace Giphy
 {
-    public class GpihyServices
-    { 
-        private RestClient client =
-            new RestClient("http://api.giphy.com/v1/gifs");
+
+    public class FunnyService : IFunnyService
+    {
+        private readonly RestClient _restClient;
+     public FunnyService()
+        {
+            _restClient = new RestClient("http://api.giphy.com/v1/gifs");
+        }
         public string GetRandom(string tag)
         {
             var request = new RestRequest("random");
             request.AddQueryParameter("tag", tag);
             request.AddQueryParameter("apiKey", "WOIU0IQCdNukp06oImt9tPAFV5dDpsHW");
-            var response = client.Execute<GiphyResponse>(request);
+            var response = _restClient.Execute<GiphyResponse>(request);
             if (response.IsSuccessful)
             {
-               string x = response.Data.Data.Images.Original.Url;
+                return response.Data.Data.Images.Original.Url;
             }
 
             return null;

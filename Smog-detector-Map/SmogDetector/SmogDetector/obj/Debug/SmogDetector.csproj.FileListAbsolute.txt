@@ -157,3 +157,12 @@ C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDete
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\obj\Debug\SmogDetector.csproj.CopyComplete
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\SmogDetector.dll.config
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Autofac.dll
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Autofac.pdb
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Autofac.xml
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Threading.Tasks.Extensions.xml
