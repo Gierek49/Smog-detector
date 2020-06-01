@@ -76,3 +76,9 @@ C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\S
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.dll
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.pdb
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\obj\Debug\SmogDetector.csprojAssemblyReference.cache
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Net.Http.Formatting.dll
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Web.Http.dll
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Web.Http.WebHost.dll
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Net.Http.Formatting.xml
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Web.Http.xml
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\SmogDetector\bin\System.Web.Http.WebHost.xml

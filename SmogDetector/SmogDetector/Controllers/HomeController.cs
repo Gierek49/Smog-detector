@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SmogDetector.Models;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
@@ -11,6 +12,12 @@ namespace SmogDetector.Controllers
         public ActionResult Index()
         {
             return View();
+        }
+
+        public ActionResult Coordinates()
+        {
+            CoordinatesModel model = new CoordinatesModel();
+            return View(model);
         }
 
     }

@@ -1,14 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Web;
+using System.Net;
+using System.Net.Http;
+using System.Web.Http;
+using System.Web.Script.Serialization;
 
 namespace SmogDetector.Models
 {
-    public class Coordinates
+    public class CoordinatesModel
     {
-        public double Lat { get; set; }
-        public double Lng { get; set; }
+        public int Id { get; set; }
+        public double Latitude { get; set; }
+        public double Longtitude { get; set; }
         public string AirPollution { get; set; }
     }
 }

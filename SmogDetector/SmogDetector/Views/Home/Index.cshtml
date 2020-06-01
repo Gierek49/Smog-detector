@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model SmogDetector.Models.CoordinatesModel
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -13,10 +15,9 @@
         }
 
         #coordinates {
-            padding-top:30px;
-            font-size:24px;
+            padding-top: 30px;
+            font-size: 24px;
         }
-
     </style>
 
 
@@ -25,16 +26,13 @@
 
         function initMap() {
 
-            
+
             var longitude;
             var latitude;
-            
 
 
             var myLatlng = { lat: 52.2297, lng: 21.0122 };
             var markers = [];
-
-
 
 
             var options = {
@@ -70,10 +68,25 @@
                     longitude = myLatLng.lat();
                     latitude = myLatLng.lng();
 
-                    
-                    document.getElementById('kordynatyX').innerHTML = longitude;
-                    
-                    document.getElementById('kordynatyY').innerHTML = latitude;
+
+                    document.getElementById('kordynatyY').innerHTML = longitude;
+
+                    document.getElementById('kordynatyX').innerHTML = latitude;
+
+                    $(document).ready(function () {
+
+                    @{  var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+                    var json = serializer.Serialize(Model);
+                    }
+
+                        var model = @Html.Raw(json);
+                        if(model != null && @Html.Raw(json) != "undefined")
+                        {
+                            //var Id= model.Id;
+                            longtitude = model.Longtitude ;
+                            latitude = model.Latitude ;
+                        }
+                    });
 
                 });
 
@@ -95,11 +108,11 @@
             }
         }
 
-        
-
-
     </script>
 
+
+
+    @*mapa*@
     <script async defer
             src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhZmZV117mmPMCkl6zvhkplleeRQStMqY&callback=initMap">
     </script>
@@ -120,9 +133,12 @@
 
 
     <div id="coordinates">
-        X <p id='kordynatyX'>  </p>
-        Y <p id='kordynatyY'></p>
+        <p id='kordynatyY'>  </p>
+        <p id='kordynatyX'></p>
     </div>
+
+
+
 
 </body>
 </html>
