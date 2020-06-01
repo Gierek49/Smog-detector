@@ -6,49 +6,55 @@ using System.Web.Mvc;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using SmogDetector;
 using SmogDetector.Controllers;
+using SmogDetector.Models;
 
 namespace SmogDetector.Tests.Controllers
 {
     [TestClass]
     public class HomeControllerTest
     {
+
+
         [TestMethod]
-        public void Index()
+        public void TestIndexView()
         {
-            // Arrange
-            HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.Index() as ViewResult;
-
-            // Assert
+            var controller = new HomeController();
+            var result = controller.Index() as ViewResult;
             Assert.IsNotNull(result);
+
         }
 
         [TestMethod]
-        public void About()
+        public void AboutIndexTest()
         {
-            // Arrange
-            HomeController controller = new HomeController();
+            
+            var controller = new HomeController();
+            var result = controller.Index();
+            Assert.IsInstanceOfType(result, typeof(ViewResult));
 
-            // Act
-            ViewResult result = controller.About() as ViewResult;
+            var viewResult = result as ViewResult;
 
-            // Assert
-            Assert.AreEqual("Your application description page.", result.ViewBag.Message);
+            Assert.AreEqual(typeof(CoordinatesModel), viewResult);
         }
 
         [TestMethod]
-        public void Contact()
+        public void Validate_Model_Given_AirPollution()
         {
-            // Arrange
-            HomeController controller = new HomeController();
-
-            // Act
-            ViewResult result = controller.Contact() as ViewResult;
-
+            var coords = new List<CoordinatesModel>
+            {
+                new CoordinatesModel {Id = 1, Latitude = 3, AirPollution = "Dobry"},
+                new CoordinatesModel {Id = 2, Latitude = 45, AirPollution = "Dobry"},
+                new CoordinatesModel {Id = 3, Latitude = 32,  AirPollution = "Bardzo Dobry"}
+            };
+            var coordsRepository = new Mock<ICoordinatesModelRepository>();
+            faqRepository.Setup(e => e.GetAll()).Returns(coords.AsQueryable());
+            var controller = new FaqController(faqRepository.Object);
+            // Act 
+            var result = controller.Index() as ViewResult;
+            var model = result.Model as CoordinatesModel;
             // Assert
             Assert.IsNotNull(result);
+            Assert.AreEqual(3, model.FAQs.Count());
         }
     }
 }
