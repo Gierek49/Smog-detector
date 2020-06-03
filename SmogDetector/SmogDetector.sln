@@ -4,8 +4,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29806.167
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmogDetector", "SmogDetector\SmogDetector.csproj", "{141FA441-B3F7-4306-A794-F43A3C0CA556}"
+	ProjectSection(ProjectDependencies) = postProject
+		{691D11E2-9D0F-4BD0-8DAE-88936809A0F8} = {691D11E2-9D0F-4BD0-8DAE-88936809A0F8}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmogDetector.Tests", "SmogDetector.Tests\SmogDetector.Tests.csproj", "{3F1A425E-34BC-4CC1-B8DD-A90BAC3295A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PythonData", "PythonData\PythonData.csproj", "{691D11E2-9D0F-4BD0-8DAE-88936809A0F8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +26,10 @@ Global
 		{3F1A425E-34BC-4CC1-B8DD-A90BAC3295A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3F1A425E-34BC-4CC1-B8DD-A90BAC3295A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3F1A425E-34BC-4CC1-B8DD-A90BAC3295A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{691D11E2-9D0F-4BD0-8DAE-88936809A0F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{691D11E2-9D0F-4BD0-8DAE-88936809A0F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{691D11E2-9D0F-4BD0-8DAE-88936809A0F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{691D11E2-9D0F-4BD0-8DAE-88936809A0F8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,4 +1,6 @@
-﻿@model SmogDetector.Models.CoordinatesModel
+﻿@using SmogDetector.Models
+
+@model CoordinatesModel
 
 <!DOCTYPE html>
 <html lang="en">
@@ -65,15 +67,15 @@
                     infoWindow.open(map);
 
                     var myLatLng = event.latLng;
-                    longitude = myLatLng.lat();
-                    latitude = myLatLng.lng();
+                    @Model.Longtitude = myLatLng.lat();
+                    @Model.Latitude = myLatLng.lng();
 
 
-                    document.getElementById('kordynatyY').innerHTML = longitude;
+                    document.getElementById('kordynatyY').innerHTML = myLatLng.lng();
 
-                    document.getElementById('kordynatyX').innerHTML = latitude;
+                    document.getElementById('kordynatyX').innerHTML = myLatLng.lat();
 
-                    $(document).ready(function () {
+                    @*$(document).ready(function () {
 
                     @{  var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
                     var json = serializer.Serialize(Model);
@@ -86,7 +88,7 @@
                             longtitude = model.Longtitude ;
                             latitude = model.Latitude ;
                         }
-                    });
+                    });*@
 
                 });
 

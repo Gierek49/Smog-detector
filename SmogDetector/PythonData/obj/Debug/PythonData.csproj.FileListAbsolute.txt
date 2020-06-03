@@ -1,0 +1,6 @@
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\bin\Debug\PythonData.exe.config
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\bin\Debug\PythonData.exe
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\bin\Debug\PythonData.pdb
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.csprojAssemblyReference.cache
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.exe
+C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.pdb
