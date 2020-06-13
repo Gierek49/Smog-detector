@@ -166,3 +166,5 @@ C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDete
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Microsoft.Bcl.AsyncInterfaces.xml
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Autofac.Integration.Mvc.dll
+C:\Users\Piotrek\Documents\Smog-detector\Smog-detector-Map\SmogDetector\SmogDetector\bin\Autofac.Integration.Mvc.xml

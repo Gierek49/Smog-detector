@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model SmogDetector.Models.HomgePageModel
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
@@ -46,7 +47,9 @@
             }
         }
     </script>
-    <img src="ImageURL"/>
+    @{
+        <img src="@Model.URL"/>
+    }
     @using (Html.BeginForm())
     {
         <input type="button" name="button" class="FunnyService" value="Button" />

@@ -1,4 +1,5 @@
 ﻿using Autofac;
+using Autofac.Integration.Mvc;
 using Giphy;
 using System.Web.Mvc;
 using System.Web.Optimization;
@@ -7,9 +8,10 @@ namespace SmogDetector
 {
     public class MvcApplication : System.Web.HttpApplication
     {
-        
+       
         protected void Application_Start()
         {
+          
             RegisterComponents(new ContainerBuilder());
             AreaRegistration.RegisterAllAreas();
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
@@ -21,10 +23,14 @@ namespace SmogDetector
           builder.RegisterType<FunnyService>().As<IFunnyService>().InstancePerLifetimeScope();
 
             var container = builder.Build();
-
+            builder.RegisterControllers(typeof(MvcApplication).Assembly);
+            var dd = new AutofacDependencyResolver(container);
+            DependencyResolver.SetResolver(dd);
             return container;
 
+            
+           
         }
     }
 }
- 
+                                                                                                                                            

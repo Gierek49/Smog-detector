@@ -4,23 +4,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using SmogDetector.Models;
 
 namespace SmogDetector.Controllers
 {
     public class HomeController : Controller
     {
         public string ImageURL { get; set; }
-
-        private readonly IFunnyService _funnyService;
-        public HomeController(IFunnyService funnyService)
-        {
-            _funnyService = funnyService;
-        }
-
         public ActionResult Index()
         {
-            ImageURL = _funnyService.GetRandom("cat");
-            return View();
+            var model=new HomgePageModel();
+            
+            var dd = new FunnyService(); 
+            model.URL = dd.GetRandom("cat");
+            return View(model);
         }
        
         //public ActionResult About()
