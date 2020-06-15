@@ -1,0 +1,146 @@
+﻿@using SmogDetector.Models
+
+@model CoordinatesModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+
+        #coordinates {
+            padding-top: 30px;
+            font-size: 24px;
+        }
+    </style>
+
+
+    <script type="text/javascript">
+
+
+        function initMap() {
+
+
+            var longitude;
+            var latitude;
+
+
+            var myLatlng = { lat: 52.2297, lng: 21.0122 };
+            var markers = [];
+
+
+            var options = {
+                zoom: 6,
+                center: { lat: 52.2297, lng: 21.0122 }
+            }
+
+            //generowanie mapy
+            var map = new
+                google.maps.Map(document.getElementById('map'), options);
+
+            //Dymek z informacja
+            var infoWindow = new google.maps.InfoWindow(
+                { content: 'Naciśnij mape by dostać współrzędne', position: myLatlng });
+            infoWindow.open(map);
+
+
+
+            // Marker na klik
+            google.maps.event.addListener(map, 'click',
+                function (event) {
+
+                    addMarker({ coords: event.latLng });
+
+                    infoWindow.close();
+
+                    //Tworzenie nowego dymku
+                    infoWindow = new google.maps.InfoWindow({ position: event.latLng });
+                    infoWindow.setContent(event.latLng.toString());
+                    infoWindow.open(map);
+
+                    var myLatLng = event.latLng;
+                    @Model.Longtitude = myLatLng.lat();
+                    @Model.Latitude = myLatLng.lng();
+
+
+                    document.getElementById('kordynatyY').innerHTML = myLatLng.lng();
+
+                    document.getElementById('kordynatyX').innerHTML = myLatLng.lat();
+
+                    @*$(document).ready(function () {
+
+                    @{  var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
+                    var json = serializer.Serialize(Model);
+                    }
+
+                        var model = @Html.Raw(json);
+                        if(model != null && @Html.Raw(json) != "undefined")
+                        {
+                            //var Id= model.Id;
+                            longtitude = model.Longtitude ;
+                            latitude = model.Latitude ;
+                        }
+                    });*@
+
+                });
+
+
+
+
+
+
+            //Funkcja dodanie markera
+            function addMarker(props) {
+
+                var marker = new google.maps.Marker({
+                    position: props.coords,
+                    map: map
+
+                })
+
+                markers.push(marker);
+            }
+        }
+
+    </script>
+
+
+
+    @*mapa*@
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDhZmZV117mmPMCkl6zvhkplleeRQStMqY&callback=initMap">
+    </script>
+</head>
+
+<body>
+
+    <h2>Smog Detector</h2>
+
+    =
+
+    <div id="map">
+
+
+
+
+    </div>
+
+
+    <div id="coordinates">
+        <p id='kordynatyY'>  </p>
+        <p id='kordynatyX'></p>
+    </div>
+
+
+
+
+</body>
+</html>
