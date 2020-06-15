@@ -1,0 +1,61 @@
+﻿@model SmogDetector.Models.HomgePageModel
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,
+          initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+    <style>
+        #map{
+            height:600px;
+            width:100%;
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Smog Detector</h2>
+    <div id="map"></div>
+    <script>
+        function initMap() {
+
+
+            var options = {
+                zoom: 10,
+                center: { lat: 52.2297, lng: 21.0122 }
+            }
+
+            var map = new
+                google.maps.Map(document.getElementById('map'), options);
+
+            // Marker na klik
+            google.maps.event.addListener(map, 'click',
+                function (event) {
+                    addMarker({ coords: event.latLng });
+                });
+
+
+            //Funkcja dodanie markera
+            function addMarker(props) {
+
+                var marker = new google.maps.Marker({
+                    position: props.coords,
+                    map: map
+                })
+            }
+        }
+    </script>
+    @{
+        <img src="@Model.URL"/>
+    }
+    @using (Html.BeginForm())
+    {
+        <input type="button" name="button" class="FunnyService" value="Button" />
+    }
+    <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyA4IoYuGPVOKjjMdOPIxnrpYmD8MnODKv0&callback=initMap">
+    </script>
+</body>
+</html>
