@@ -4,6 +4,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Script.Services;
+using System.Web.Services;
 
 namespace SmogDetector.Controllers
 {
@@ -14,11 +16,20 @@ namespace SmogDetector.Controllers
             return View();
         }
 
-        public ActionResult Coordinates()
+
+        //[WebMethod]
+        //public static double GetCoords(double lat, double lng)
+        //{
+        //    return lat + lng;
+        //}
+
+        [WebMethod]
+        public static string GetCurrentTime(string name)
         {
-            CoordinatesModel model = new CoordinatesModel();
-            return View(model);
+            return "Hello " + name + Environment.NewLine + "The Current Time is: "
+                + DateTime.Now.ToString();
         }
 
+       
     }
 }
