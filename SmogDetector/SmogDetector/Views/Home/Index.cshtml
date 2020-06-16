@@ -1,10 +1,7 @@
-﻿@using SmogDetector.Models
-
-@model CoordinatesModel
-
+﻿
 <!DOCTYPE html>
 <html lang="en">
-<head>
+<head runat="server">
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,
           initial-scale=1.0">
@@ -21,16 +18,19 @@
             font-size: 24px;
         }
     </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"
+            integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+            crossorigin="anonymous">
+    </script>
+
+
 
 
     <script type="text/javascript">
 
 
         function initMap() {
-
-
-            var longitude;
-            var latitude;
 
 
             var myLatlng = { lat: 52.2297, lng: 21.0122 };
@@ -51,7 +51,34 @@
                 { content: 'Naciśnij mape by dostać współrzędne', position: myLatlng });
             infoWindow.open(map);
 
+            //Funkcja dodanie markera
+            function addMarker(props) {
 
+                var marker = new google.maps.Marker({
+                    position: props.coords,
+                    map: map
+                })
+
+                markers.push(marker);
+
+            }
+
+            //wyysłanie post coords//test
+            $(document).ready(function () {
+                $("#btnSave").click(function () {
+                    $.ajax({
+                        type: "POST",
+                        url: "Home/GetCurrentTime",
+                        data: { name: "Konrad" },
+                        contentType: "application/json; charset=utf-8",
+                        dataType: "json",
+                        success: function (msg) {
+                            // Replace the div's content with the page method's return.
+                            alert($("#Result").text(msg.d));
+                        }
+                    });
+                });
+            });
 
             // Marker na klik
             google.maps.event.addListener(map, 'click',
@@ -67,47 +94,16 @@
                     infoWindow.open(map);
 
                     var myLatLng = event.latLng;
-                    @Model.Longtitude = myLatLng.lat();
-                    @Model.Latitude = myLatLng.lng();
-
 
                     document.getElementById('kordynatyY').innerHTML = myLatLng.lng();
 
                     document.getElementById('kordynatyX').innerHTML = myLatLng.lat();
 
-                    @*$(document).ready(function () {
 
-                    @{  var serializer = new System.Web.Script.Serialization.JavaScriptSerializer();
-                    var json = serializer.Serialize(Model);
-                    }
-
-                        var model = @Html.Raw(json);
-                        if(model != null && @Html.Raw(json) != "undefined")
-                        {
-                            //var Id= model.Id;
-                            longtitude = model.Longtitude ;
-                            latitude = model.Latitude ;
-                        }
-                    });*@
 
                 });
 
 
-
-
-
-
-            //Funkcja dodanie markera
-            function addMarker(props) {
-
-                var marker = new google.maps.Marker({
-                    position: props.coords,
-                    map: map
-
-                })
-
-                markers.push(marker);
-            }
         }
 
     </script>
@@ -122,25 +118,20 @@
 
 <body>
 
-    <h2>Smog Detector</h2>
-
-    =
-
-    <div id="map">
 
 
+    <div id="map"></div>
 
-
-    </div>
 
 
     <div id="coordinates">
         <p id='kordynatyY'>  </p>
         <p id='kordynatyX'></p>
+        <input type="button" id="btnSave" value="Save" />
     </div>
-
 
 
 
 </body>
 </html>
+

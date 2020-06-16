@@ -2,9 +2,9 @@
 using System.Diagnostics;
 
 
-namespace Python
+namespace PythonData
 {
-    class Program
+    public class Program
     {
         static double X;
         static double Y;
