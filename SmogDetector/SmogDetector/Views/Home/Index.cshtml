@@ -64,21 +64,34 @@
             }
 
             //wyysłanie post coords//test
-            $(document).ready(function () {
-                $("#btnSave").click(function () {
+
+            var nameM = {
+                Id: 1,
+                Latitude: 432,
+                Longtitude: 156,
+                AirPollution: ""
+            }
                     $.ajax({
                         type: "POST",
+                        data: JSON.stringify(nameM),
                         url: "Home/GetCurrentTime",
-                        data: { name: "Konrad" },
-                        contentType: "application/json; charset=utf-8",
-                        dataType: "json",
-                        success: function (msg) {
-                            // Replace the div's content with the page method's return.
-                            alert($("#Result").text(msg.d));
+                        method: "POST",
+                        dataType: 'json',
+                        contentType: false,
+                        processData: false,
+                        success: function (response) {
+                            if (response.success) {
+                                alert(response.responseText);
+                            }
+                        },
+                        error: function (xhr, desc) {
+                            alert(desc + xhr.status);
                         }
                     });
-                });
-            });
+                
+          
+
+
 
             // Marker na klik
             google.maps.event.addListener(map, 'click',

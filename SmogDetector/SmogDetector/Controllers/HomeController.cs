@@ -23,13 +23,17 @@ namespace SmogDetector.Controllers
         //    return lat + lng;
         //}
 
-        [WebMethod]
-        public static string GetCurrentTime(string name)
+        [HttpPost]
+        public ActionResult GetCurrentTime(CoordinatesModel nameVmodel)
         {
-            return "Hello " + name + Environment.NewLine + "The Current Time is: "
-                + DateTime.Now.ToString();
-        }
 
-       
+            return Json(new
+            {
+                success = true,
+                responseText = nameVmodel.Latitude.ToString() + nameVmodel.Longtitude.ToString()
+            });
+        }
     }
+
+
 }
