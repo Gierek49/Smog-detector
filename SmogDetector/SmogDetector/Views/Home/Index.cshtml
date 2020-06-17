@@ -35,6 +35,8 @@
 
             var myLatlng = { lat: 52.2297, lng: 21.0122 };
             var markers = [];
+            var Lat;
+            var Lng;
 
 
             var options = {
@@ -63,14 +65,15 @@
 
             }
 
-            //wyysłanie post coords//test
+            var nameM =
+                JSON.stringify({
+                    lat: Lat,
+                    lng: Lng
+                });
 
-            var nameM = {
-                Id: 1,
-                Latitude: 432,
-                Longtitude: 156,
-                AirPollution: ""
-            }
+            //wyysłanie post coords//test
+            $(document).ready(function () {
+                $("#btnSave").click(function () {
                     $.ajax({
                         type: "POST",
                         data: JSON.stringify(nameM),
@@ -88,8 +91,9 @@
                             alert(desc + xhr.status);
                         }
                     });
-                
-          
+                });
+            });
+
 
 
 
@@ -112,7 +116,8 @@
 
                     document.getElementById('kordynatyX').innerHTML = myLatLng.lat();
 
-
+                    Lng = myLatLng.lng();
+                    Lat = myLatLng.lat();
 
                 });
 
@@ -135,12 +140,15 @@
 
     <div id="map"></div>
 
+    <div id="button">
+        <input type="button" id="btnSave" value="Save" />
+    </div>
+
 
 
     <div id="coordinates">
         <p id='kordynatyY'>  </p>
         <p id='kordynatyX'></p>
-        <input type="button" id="btnSave" value="Save" />
     </div>
 
 
