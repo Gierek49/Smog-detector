@@ -1,6 +1,16 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Projekt",
+    "\\Smog-detector-Map",
+    "\\Smog-detector-Map\\SmogDetector\\SmogDetector\\Views",
+    "\\SmogDetector",
+    "\\SmogDetector\\PythonData",
+    "\\SmogDetector\\SmogDetector\\Models",
+    "\\SmogDetector\\SmogDetector\\Views",
+    "\\SmogDetector\\SmogDetector\\Views\\Home",
+    "\\SmogDetector\\SmogDetector\\Views\\Shared"
   ],
+  "SelectedNode": "\\Smog-detector-Map",
   "PreviewInSolutionExplorer": false
 }
