@@ -4,3 +4,10 @@ C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\bin\Debug\Pyt
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.csprojAssemblyReference.cache
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.exe
 C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\obj\Debug\PythonData.pdb
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\bin\Debug\PythonData.exe.config
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\bin\Debug\PythonData.exe
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\bin\Debug\PythonData.pdb
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\obj\Debug\PythonData.csprojAssemblyReference.cache
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\obj\Debug\PythonData.csproj.CoreCompileInputs.cache
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\obj\Debug\PythonData.exe
+C:\Users\Piotrek\source\repos\smogdetec\SmogDetector\PythonData\obj\Debug\PythonData.pdb

@@ -1,4 +1,4 @@
-﻿
+﻿@model SmogDetector.Models.HomgePageModel
 <!DOCTYPE html>
 <html lang="en">
 <head runat="server">
@@ -108,7 +108,14 @@
 
     </script>
 
+    </script>
+    @{
+        <img src="@Model.URL" class="rounded mx-auto d-block" alt="..." />
+    }
+    @using (Html.BeginForm())
+    {
 
+    }
 
     @*mapa*@
     <script async defer

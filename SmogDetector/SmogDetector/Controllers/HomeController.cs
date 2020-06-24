@@ -6,17 +6,24 @@ using System.Web;
 using System.Web.Mvc;
 using System.Web.Script.Services;
 using System.Web.Services;
+using System.Web.Mvc;
+using SmogDetector.Models;
+using Giphy;
+
 
 namespace SmogDetector.Controllers
 {
     public class HomeController : Controller
     {
+        public string ImageURL { get; set; }
         public ActionResult Index()
         {
-            return View();
+            var model=new HomgePageModel();
+            
+            var dd = new FunnyService(); 
+            model.URL = dd.GetRandom("cat");
+            return View(model);
         }
-
-
         //[WebMethod]
         //public static double GetCoords(double lat, double lng)
         //{
