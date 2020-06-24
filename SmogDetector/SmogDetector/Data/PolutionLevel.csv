@@ -1,0 +1,195 @@
+id,stationName,gegrLat,gegrLon,NameLevel
+114,Wrocław - Bartnicza,51.115933,17.141125,Bardzo dobry
+117,Wrocław - Korzeniowskiego,51.129378,17.02925,Bardzo dobry
+129,Wrocław - Wiśniowa,51.086225,17.012689,Dobry
+52,Legnica - Rzeczypospolitej,51.204503,16.180513,Dobry
+109,Wałbrzych - Wysockiego,50.768729,16.269676999999998,Bardzo dobry
+11,Czerniawa,50.912475,15.31219,Bardzo dobry
+14,Działoszyn,50.972167,14.941319,Bardzo dobry
+16,Dzierżoniów - Piłsudskiego,50.732817,16.64805,Dobry
+38,Kłodzko - Szkolna,50.433493,16.653660000000002,Bardzo dobry
+70,Oława - Żołnierzy AK,50.942073,17.291332999999998,Bardzo dobry
+74,Osieczów,51.31763,15.431719000000001,Bardzo dobry
+84,Śnieżka,50.736389,15.739722,Dobry
+132,Ząbkowice Śląskie,50.592325,16.819785999999997,Bardzo dobry
+134,Zgorzelec - Bohaterów Getta,51.150391,15.008175,Bardzo dobry
+9153,Jelenia Góra - Ogińskiego,50.913433000000005,15.765607999999999,Bardzo dobry
+10133,Środa Śląska,51.166236,16.597559,Dobry
+10135,Kamienna Góra,50.788078999999996,16.035122,Bardzo dobry
+11254,Nowa Ruda - Jeziorna,50.581492,16.498245,Bardzo dobry
+11414,Lubań - Mieszka II,51.119011,15.275539000000002,Bardzo dobry
+156,Bydgoszcz Plac Poznański,53.121764,17.987906,Bardzo dobry
+16197,"Świebodzin,ul. Gen.W.Sikorskiego",52.245444,15.527571,Bardzo dobry
+295,Łódź-Widzew,51.75805,19.529785999999998,Dobry
+296,Łódź-Gdańska 16,51.775411,19.4509,Dobry
+314,Pabianice-Polfa,51.667981,19.368682999999997,Bardzo dobry
+355,Zgierz-Śródmieście,51.856691999999995,19.421231,Dobry
+10058,Łódź-Jana Pawła II 15,51.754613,19.434925,Dobry
+291,Gajew,52.14325,19.233225,Bardzo dobry
+319,Parzniewice,51.291175,19.517556,Bardzo dobry
+322,Piotrków Tryb.-Krakowskie Przedmieście,51.404406,19.696956,Bardzo dobry
+331,Radomsko-Rolna2,51.067439,19.448694,Bardzo dobry
+562,Żyrardów-Roosevelta,52.053810999999996,20.429892000000002,Bardzo dobry
+9913,Guty Duże,52.943172,21.288167,Bardzo dobry
+10434,Konstancin-Jeziorna-Wierzejewskiego,52.080625,21.111186,Dobry
+10974,Mińsk Mazowiecki-Kazikowskiego,52.178765999999996,21.560968,Bardzo dobry
+11358,Biała-Kmicica,52.602534,19.6451,Brak indeksu
+590,Opole manualna 4,50.676856,17.950278,Bardzo dobry
+10374,Opole automat 5,50.666736,17.899137,Bardzo dobry
+568,K-Koźle automat 1,50.349608,18.236575,Bardzo dobry
+584,Olesno automat 4,50.876983,18.416878,Bardzo dobry
+600,Zdzieszowice automat 2,50.423533,18.120739,Dobry
+8976,Nysa manualna 3,50.458989,17.331906,Bardzo dobry
+11399,Prudnik mobilna,50.320858,17.591909,Bardzo dobry
+16181,Strzelce Opolskie mobilna,50.509334,18.288206,Bardzo dobry
+671,Rzeszów-Nowe Miasto,50.024242,22.010575,Bardzo dobry
+10125,Rzeszów-Piłsudskiego,50.040675,22.004656,Dobry
+631,Jarosław-PWSTE-WIOS,50.012083000000004,22.674772,Bardzo dobry
+638,Jaslo-Sikorskiego-WIOS,49.744886,21.454617000000002,Bardzo dobry
+646,Krosno-Kletówki,49.690169,21.7497,Bardzo dobry
+659,Nisko-Szklarniowa-WIOS,50.529892,22.112467000000002,Bardzo dobry
+665,Przemysl-Grunwaldzka-WIOS,49.784339,22.756239,Dobry
+870,WIOŚ Gołdap ul. Jaćwieska,54.305907999999995,22.307681,Dobry
+882,KMŚ Puszcza Borecka,54.124818999999995,22.038056,Dobry
+10005,WIOŚ Ełk,53.828455000000005,22.34845,Dobry
+10030,WIOŚ Ostróda Piłsudskiego,53.694628,19.968892,Bardzo dobry
+11375,WIOŚ Biskupiec-Mobilna,53.860702,20.957892,Bardzo dobry
+943,Poznan-Polanka,52.398175,16.959519,Bardzo dobry
+944,Poznan-Dabrowskiego,52.420319,16.877289,Bardzo dobry
+11477,Poznań - RatajeMOB,52.391728,16.998578,Bardzo dobry
+952,Kalisz-Wyszynskiego,51.749053,18.048389,Umiarkowany
+902,Konin-Wyszynskiego,52.225633,18.269036,Bardzo dobry
+920,"Pila, ul. Kusocinkiego",53.154408,16.759572,Bardzo dobry
+946,Piaski-Krzyzowka,52.501389,17.773464,Bardzo dobry
+950,Borowiec-Drapalka,52.276794,17.074114,Bardzo dobry
+9218,"Pleszew, Al. Mickiewicza",51.884921999999996,17.791106,Dobry
+10834,Kozieglowy-os.Lesne,52.44933100000001,16.999682999999997,Bardzo dobry
+986,Szczecin_Andrzejewskiego,53.380975,14.663347,Dobry
+987,Szczecin_Piłsudskiego,53.432168999999995,14.5539,Brak indeksu
+966,Koszalin_ArmiiKrajowej,54.193985999999995,16.172544,Brak indeksu
+11336,Koszalin_Chopina,54.194117000000006,16.211661,Dobry
+961,Widuchowa,53.122325,14.382222,Dobry
+983,Szczecinek_Przemysłowa,53.6989,16.704572,Brak indeksu
+16157,Uzdrowisko_Połczyn-Zdrój,53.75571899999999,16.089289,Brak indeksu
+11514,CHojnice - mobilna,53.699954000000005,17.546810999999998,Brak indeksu
+805,"Dąbrowa Górnicza, ul. Tysiąclecia 25a",50.329111,19.231222,Dobry
+809,"Gliwice, ul. Mewy 34",50.279481,18.655735999999997,Bardzo dobry
+813,"Katowice, ul. Plebiscytowa/A4",50.246795,19.019469,Bardzo dobry
+814,"Katowice, ul. Kossutha 6",50.264611,18.975028,Bardzo dobry
+837,"Sosnowiec, ul. Lubelska 51",50.285956,19.184399,Bardzo dobry
+841,"Tychy, ul. Tołstoja 1",50.099903000000005,18.990236,Bardzo dobry
+848,"Zabrze, ul. M. Curie-Skłodowskiej 34",50.3165,18.772375,Bardzo dobry
+834,"Rybnik, ul. Borki 37 d",50.111181,18.516139000000003,Bardzo dobry
+10554,"Żory, Os. Gen. Władysława Sikorskiego 52_(2)",50.029416,18.689527,Bardzo dobry
+789,"Bielsko-Biała, ul. Kossak-Szczuckiej 19",49.813464,19.027318,Bardzo dobry
+10158,"Bielsko-Biała, ul.Partyzantów",49.802075,19.04861,Dobry
+798,"Częstochowa, ul. AK/Jana Pawła II",50.817217,19.118997,Dobry
+800,"Częstochowa, ul. Baczyńskiego 2",50.836389000000004,19.130111,Bardzo dobry
+842,"Ustroń, ul. Sanatoryjna 7",49.719731,18.826722,Bardzo dobry
+845,"Wodzisław Śląski, ul. Gałczyńskiego 1",50.007629,18.455548,Bardzo dobry
+853,"Złoty Potok, Leśniczówka",50.710889,19.458797,Bardzo dobry
+856,"Żywiec, ul. Kopernika  83 a",49.671602,19.234446,Bardzo dobry
+9000,"Czerwionka-Leszczyny, ul. Kopalniana",50.16385,18.659976999999998,Bardzo dobry
+11278,"Lubliniec, ul. ks. Szymały",50.675693,18.682064999999998,Dobry
+11455,"Zawiercie, ul. K.I.Gałczyńskiego 3",50.493045,19.439011999999998,Bardzo dobry
+11457,"Goczałkowice Zdrój, ul. Parkowa",49.93785,18.975594,Dobry
+11794,"Racibórz, Wojska Polskiego 8",50.091142,18.216261,Bardzo dobry
+11195,"Kielce, ul. Targowa",50.878997999999996,20.633692,Bardzo dobry
+769,"Nowiny, ul. Parkowa",50.823108000000005,20.533506,Bardzo dobry
+778,"Połaniec, ul. Ruszczańska",50.429014,21.277367,Bardzo dobry
+785,"Starachowice, ul. Złota",51.050610999999996,21.084175,Bardzo dobry
+10444,"Ostrowiec Świętokrzyski, MOBILNA",50.946703,21.394492,Bardzo dobry
+10794,"Małogoszcz, ul. Słoneczna",50.809563,20.266099,Bardzo dobry
+11754,Gołuchów Ujęcie Wody,50.621482,20.614057,Bardzo dobry
+877,WIOŚ Olsztyn ul. Puszkina,53.789232999999996,20.486075,Bardzo dobry
+861,WIOŚ Elbląg ul. Bażyńskiego,54.167846999999995,19.410942000000002,Bardzo dobry
+11616,Kutno-1 Maja 7,52.231728000000004,19.353742,Bardzo dobry
+400,"Kraków, Aleja Krasińskiego",50.057678,19.926189,Dobry
+401,"Kraków, ul. Bujaka",50.010575,19.949189,Dobry
+402,"Kraków, ul. Bulwarowa",50.069308,20.053492000000002,Dobry
+10121,"Kraków, ul. Dietla",50.057446999999996,19.946008,Dobry
+10123,"Kraków, ul. Złoty Róg",50.081196999999996,19.895357999999998,Dobry
+10139,"Kraków, os. Piastów",50.098508,20.018269,Bardzo dobry
+10447,"Kraków, os. Wadów",50.100569,20.122560999999997,Dobry
+11303,"Kraków, os. Swoszowice",49.991442,19.936792,Dobry
+444,"Tarnów, ul. Bitwy pod Studziankami",50.020169,21.004167000000002,Dobry
+10120,"Tarnów, ul. Ks. Romana Sitko",50.018253,20.992577999999998,Dobry
+426,"Nowy Sącz, ul. Nadbrzeżna",49.619281,20.714403,Bardzo dobry
+9173,Dębica-Grottgera-WIOS,50.054786,21.416256,Dobry
+9175,Krempna-MPN-WIOS,49.511297,21.498606,Bardzo dobry
+10414,Rymanów-Zdrój-Samorząd,49.546539,21.851005999999998,Bardzo dobry
+10438,Mielec-Biernackiego-WIOS,50.299128,21.440942,Dobry
+12045,Polanczyk-mobilna,49.374208,22.439453,Bardzo dobry
+605,Białystok-Miejska,53.126689,23.155869,Brak indeksu
+609,Białystok-Warszawska,53.12930600000001,23.181744000000002,Bardzo dobry
+612,Borsukowizna-Wiejska,53.215492000000005,23.642153,Dobry
+9994,Grajewo - mobilne ,53.639793000000004,22.470274,Brak indeksu
+11154,"Suwałki, ul. Pułaskiego 26",54.11605600000001,22.93875,Brak indeksu
+11916,Augustów-Miejska,53.852639,22.984610999999997,Dobry
+729,AM1 Gdańsk Śródmieście,54.353336,18.635282999999998,Umiarkowany
+731,AM3 Gdańsk Nowy Port,54.400833,18.657497,Dobry
+732,AM4 Gdynia Pogórze,54.560836,18.493331,Dobry
+734,AM6 Sopot,54.431667000000004,18.579722,Dobry
+736,AM8 Gdańsk Wrzeszcz,54.380279,18.620274,Dobry
+738,AM9 Gdynia Dąbrowa,54.465757999999994,18.464910999999997,Dobry
+725,AM11 Słupsk Kniaziewicza,54.463611,17.046722,Brak indeksu
+740,AM12 Kościerzyna Targowa,54.12069399999999,17.975861,Dobry
+741,AM15 Malbork Mickiewicza,54.031247,19.032899,Bardzo dobry
+742,AM16 Lębork Malczewskiego,54.546167000000004,17.746194,Bardzo dobry
+743,AM17 Liniewko Kościerskie,54.104110999999996,18.182972,Dobry
+750,IMGW Łeba - Rąbka,54.754139,17.534527999999998,Dobry
+437,"Skawina, os. Ogrody",49.971047,19.830422,Dobry
+443,Szymbark,49.633714000000005,21.116833,Dobry
+449,"Trzebinia, os. Związku Walki Młodych",50.159406,19.477464,Dobry
+459,"Zakopane, ul. Sienkiewicza",49.293564,19.960082999999997,Dobry
+9179,"Szarów, ul. Spokojna",50.0075,20.259167,Brak indeksu
+10119,Kaszów,50.025028000000006,19.726833,Brak indeksu
+10124,"Sucha Beskidzka, ul. Nieszczyńskiej",49.743131,19.600339,Bardzo dobry
+10254,"Nowy Targ, Plac Słowackiego",49.483596999999996,20.028992000000002,Bardzo dobry
+10446,"Rabka-Zdrój, ul. Orkana",49.608647,19.966008,Bardzo dobry
+10814,"Oświęcim, ul. J. Bema",50.033083000000005,19.245275,Dobry
+11280,"Krynica, ul. Bulwary Dietla",49.416978,20.956147,Bardzo dobry
+11301,"Olkusz, ul. Cegielniana",50.284,19.564044,Dobry
+11314,"Skawina, ul. Studzińskiego",49.983361,19.839572,Brak indeksu
+11434,"Zabierzów, ul. Wapienna",50.116028,19.800639,Dobry
+530,Warszawa-Komunikacyjna,52.219297999999995,21.004724,Dobry
+531,Warszawa-Podleśna,52.280939000000004,20.962156,Brak indeksu
+538,Warszawa-Tołstoja,52.285073,20.933018,Dobry
+550,Warszawa-Ursynów,52.160771999999994,21.033819,Dobry
+552,Warszawa-Targówek,52.290864,21.042458,Dobry
+10955,Warszawa-Chrościckiego,52.207741999999996,20.906073000000003,Dobry
+10956,Warszawa-Bajkowa,52.188474,21.176233,Dobry
+497,Płock-Gimnazjum,52.556279,19.687672,Brak indeksu
+501,Płock-Reja,52.550938,19.709791,Dobry
+515,Radom-Tochtermana,51.399084,21.147474,Bardzo dobry
+460,Belsk-IGFPAN,51.83512,20.791556,Brak indeksu
+466,Granica-KPN,52.285858000000005,20.454653,Brak indeksu
+471,Legionowo-Zegrzyńska,52.407578,20.955928,Dobry
+485,Otwock-Brzozowa,52.115725,21.237297,Dobry
+488,Piastów-Pułaskiego,52.191728000000005,20.837489,Dobry
+517,Siedlce-Konarskiego,52.172145,22.282001,Bardzo dobry
+9778,"Chełmno, Łunawska 3A",53.351975,18.447498,Bardzo dobry
+266,Lublin ul. Obywatelska,51.259431,22.569132999999997,Bardzo dobry
+236,BiałaP-Orzechowa,52.029194,23.149389000000003,Bardzo dobry
+248,IMGW-Jarczew,51.814367,21.972375,Bardzo dobry
+282,Lublin-Podmiejska,51.163542,22.598608,Bardzo dobry
+285,Zamość ul. Hrubieszowska 69A,50.716628,23.290247,Bardzo dobry
+9593,Puławy ul. Karpińskiego,51.419047,21.961089,Bardzo dobry
+10874,Florianka RPN,50.551894,22.982861,Bardzo dobry
+11360,Chełm ul.Połaniecka,51.12219,23.47287,Bardzo dobry
+12098,Krasnobrod,50.549296999999996,23.197317,Bardzo dobry
+361,Gorzów Wlkp. ul. Kosynierów Gdyńskich,52.738214,15.228667000000002,Bardzo dobry
+387,Zielona Góra ul. Krótka,51.939783,15.518861,Bardzo dobry
+374,Smolary Bytnickie,52.172222,15.206667000000001,Dobry
+376,Sulęcin ul. Dudka,52.437721999999994,15.122444,Bardzo dobry
+379,Wschowa ul. Kazimierza Wielkiego,51.799721999999996,16.3175,Bardzo dobry
+382,"Żary, ul. Szymanowskiego 8",51.642656,15.127807999999998,Dobry
+145,Toruń Airpointer,53.012260999999995,18.606203,Bardzo dobry
+206,Toruń POLICJA,53.028647,18.666103,Bardzo dobry
+208,"Toruń, KASZOWNIK",53.017628,18.612807999999998,Dobry
+225,Włocławek OKRZEI,52.658467,19.059314,Dobry
+9791,"Włocławek, ul. Kaliska",52.63739399999999,19.044486,Dobry
+143,Inowrocław Airpointer,52.793122,18.241044,Bardzo dobry
+164,Ciechocinek,52.888422,18.780908,Bardzo dobry
+190,Koniczynka,53.080647,18.684258,Bardzo dobry
+232,Bory Tucholskie,53.662117,17.934017,Dobry

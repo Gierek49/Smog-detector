@@ -18,13 +18,13 @@ namespace PythonData
             //utworzenie procesu
             var psi = new ProcessStartInfo();
             //scieżka do pythona 
-            psi.FileName = @"C:\Users\Konrad\AppData\Local\Programs\Python\Python38-32\python.exe";
+            psi.FileName = @"C:\Users\admin\AppData\Local\Programs\Python\Python38\python.exe";
 
             //scieżka do skryptu i argumenty 
-            var script = @"C:\Users\Konrad\source\repos\Smog-detector\SmogDetector\PythonData\Model.py";
+            var script = @"C:\Users\admin\source\repos\Smog-detector\SmogDetector\PythonData\DataReader.py";
 
             //konfiguracja
-            psi.Arguments = $"\"{script}\" \"{X}\" \"{Y}\" -f";
+            psi.Arguments = $"\"{script}\"";
             psi.UseShellExecute = false;
             psi.CreateNoWindow = true;
             psi.RedirectStandardOutput = true;
@@ -32,18 +32,15 @@ namespace PythonData
 
             //wykonanie procesu i zwrot danych
             var errors = "";
-            var result = "";
 
             using (var proces = Process.Start(psi))
             {
                 errors = proces.StandardError.ReadToEnd();
-                result = proces.StandardOutput.ReadToEnd();
             }
 
-            Console.WriteLine("Errors");
+            Console.WriteLine("Errors:");
             Console.WriteLine(errors);
-            Console.WriteLine("Result");
-            Console.WriteLine(result);
+            Console.WriteLine("End successfully");
 
             Console.ReadLine();
         }

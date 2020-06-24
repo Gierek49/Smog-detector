@@ -53,5 +53,5 @@ df.insert(4, "NameLevel", Type_new)
 
 
 #Tutaj zmienić scieżkę gdzie bedzie to zapisywane w razie potrzeby 
-df.to_csv('PolutionLevel.csv',index=False)
+df.to_csv('C:/Users/admin/Source/Repos/Smog-detector/SmogDetector/SmogDetector/Data/PolutionLevel.csv',index=False)
 

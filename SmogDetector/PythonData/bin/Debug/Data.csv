@@ -1,0 +1,195 @@
+id,stationName,gegrLat,gegrLon,city,addressStreet
+114,Wrocław - Bartnicza,51.115933,17.141125,"{'id': 1064, 'name': 'Wrocław', 'commune': {'communeName': 'Wrocław', 'districtName': 'Wrocław', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Bartnicza
+117,Wrocław - Korzeniowskiego,51.129378,17.02925,"{'id': 1064, 'name': 'Wrocław', 'commune': {'communeName': 'Wrocław', 'districtName': 'Wrocław', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Wyb. J.Conrada-Korzeniowskiego 18
+129,Wrocław - Wiśniowa,51.086225,17.012689,"{'id': 1064, 'name': 'Wrocław', 'commune': {'communeName': 'Wrocław', 'districtName': 'Wrocław', 'provinceName': 'DOLNOŚLĄSKIE'}}",al. Wiśniowa/ul. Powst. Śląskich
+52,Legnica - Rzeczypospolitej,51.204503,16.180513,"{'id': 453, 'name': 'Legnica', 'commune': {'communeName': 'Legnica', 'districtName': 'Legnica', 'provinceName': 'DOLNOŚLĄSKIE'}}",al. Rzeczypospolitej 10/12
+109,Wałbrzych - Wysockiego,50.768729,16.269677,"{'id': 998, 'name': 'Wałbrzych', 'commune': {'communeName': 'Wałbrzych', 'districtName': 'Wałbrzych', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Wysockiego 11
+11,Czerniawa,50.912475,15.31219,"{'id': 142, 'name': 'Czerniawa', 'commune': {'communeName': 'Świeradów-Zdrój', 'districtName': 'lubański', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Strażacka 7
+14,Działoszyn,50.972167,14.941319,"{'id': 192, 'name': 'Działoszyn', 'commune': {'communeName': 'Bogatynia', 'districtName': 'zgorzelecki', 'provinceName': 'DOLNOŚLĄSKIE'}}",bez ulicy
+16,Dzierżoniów - Piłsudskiego,50.732817,16.64805,"{'id': 198, 'name': 'Dzierżoniów', 'commune': {'communeName': 'Dzierżoniów', 'districtName': 'dzierżoniowski', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Piłsudskiego 26
+38,Kłodzko - Szkolna,50.433493,16.65366,"{'id': 368, 'name': 'Kłodzko', 'commune': {'communeName': 'Kłodzko', 'districtName': 'kłodzki', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Szkolna 8
+70,Oława - Żołnierzy AK,50.942073,17.291333,"{'id': 642, 'name': 'Oława', 'commune': {'communeName': 'Oława', 'districtName': 'oławski', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Żołnierzy AK 9
+74,Osieczów,51.31763,15.431719,"{'id': 648, 'name': 'Osieczów', 'commune': {'communeName': 'Osiecznica', 'districtName': 'bolesławiecki', 'provinceName': 'DOLNOŚLĄSKIE'}}",bez ulicy
+84,Śnieżka,50.736389,15.739722,"{'id': 346, 'name': 'Karpacz', 'commune': {'communeName': 'Karpacz', 'districtName': 'jeleniogórski', 'provinceName': 'DOLNOŚLĄSKIE'}}",Śnieżka
+132,Ząbkowice Śląskie,50.592325,16.819786,"{'id': 1090, 'name': 'Ząbkowice Śląskie', 'commune': {'communeName': 'Ząbkowice Śląskie', 'districtName': 'ząbkowicki', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Powstańców Warszawy 5
+134,Zgorzelec - Bohaterów Getta,51.150391,15.008175,"{'id': 1101, 'name': 'Zgorzelec', 'commune': {'communeName': 'Zgorzelec', 'districtName': 'zgorzelecki', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Bohaterów Getta 1a
+9153,Jelenia Góra - Ogińskiego,50.913433,15.765608,"{'id': 319, 'name': 'Jelenia Góra', 'commune': {'communeName': 'Jelenia Góra', 'districtName': 'Jelenia Góra', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Ogińskiego 6
+10133,Środa Śląska,51.166236,16.597559,"{'id': 934, 'name': 'Środa Śląska', 'commune': {'communeName': 'Środa Śląska', 'districtName': 'średzki', 'provinceName': 'DOLNOŚLĄSKIE'}}",Aleja Konstytucji 3 Maja 7
+10135,Kamienna Góra,50.788079,16.035122,"{'id': 339, 'name': 'Kamienna Góra', 'commune': {'communeName': 'Kamienna Góra', 'districtName': 'kamiennogórski', 'provinceName': 'DOLNOŚLĄSKIE'}}",Wałbrzyska 2c
+11254,Nowa Ruda - Jeziorna,50.581492,16.498245,"{'id': 602, 'name': 'Nowa Ruda', 'commune': {'communeName': 'Nowa Ruda', 'districtName': 'kłodzki', 'provinceName': 'DOLNOŚLĄSKIE'}}",ul. Jeziorna 19
+11414,Lubań - Mieszka II,51.119011,15.275539,"{'id': 482, 'name': 'Lubań', 'commune': {'communeName': 'Lubań', 'districtName': 'lubański', 'provinceName': 'DOLNOŚLĄSKIE'}}",Mieszka II 1
+156,Bydgoszcz Plac Poznański,53.121764,17.987906,"{'id': 90, 'name': 'Bydgoszcz', 'commune': {'communeName': 'Bydgoszcz', 'districtName': 'Bydgoszcz', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",Plac Poznański
+16197,"Świebodzin,ul. Gen.W.Sikorskiego",52.245444,15.527571,"{'id': 939, 'name': 'Świebodzin', 'commune': {'communeName': 'Świebodzin', 'districtName': 'świebodziński', 'provinceName': 'LUBUSKIE'}}",Gen.W.Sikorskiego 25
+295,Łódź-Widzew,51.75805,19.529786,"{'id': 516, 'name': 'Łódź', 'commune': {'communeName': 'Łódź', 'districtName': 'Łódź', 'provinceName': 'ŁÓDZKIE'}}",ul. Czernika 1/3
+296,Łódź-Gdańska 16,51.775411,19.4509,"{'id': 516, 'name': 'Łódź', 'commune': {'communeName': 'Łódź', 'districtName': 'Łódź', 'provinceName': 'ŁÓDZKIE'}}",ul. Gdańska 16
+314,Pabianice-Polfa,51.667981,19.368683,"{'id': 667, 'name': 'Pabianice', 'commune': {'communeName': 'Pabianice', 'districtName': 'pabianicki', 'provinceName': 'ŁÓDZKIE'}}",ul. Konstantynowska
+355,Zgierz-Śródmieście,51.856692,19.421231,"{'id': 1100, 'name': 'Zgierz', 'commune': {'communeName': 'Zgierz', 'districtName': 'zgierski', 'provinceName': 'ŁÓDZKIE'}}",ul. Mielczarskiego 1
+10058,Łódź-Jana Pawła II 15,51.754613,19.434925,"{'id': 516, 'name': 'Łódź', 'commune': {'communeName': 'Łódź', 'districtName': 'Łódź', 'provinceName': 'ŁÓDZKIE'}}",al. Jana Pawła II 15
+291,Gajew,52.14325,19.233225,"{'id': 209, 'name': 'Gajew', 'commune': {'communeName': 'Witonia', 'districtName': 'łęczycki', 'provinceName': 'ŁÓDZKIE'}}",Ujęcie wody
+319,Parzniewice,51.291175,19.517556,"{'id': 673, 'name': 'Parzniewice', 'commune': {'communeName': 'Wola Krzysztoporska', 'districtName': 'piotrkowski', 'provinceName': 'ŁÓDZKIE'}}",Ujęcie wody
+322,Piotrków Tryb.-Krakowskie Przedmieście,51.404406,19.696956,"{'id': 703, 'name': 'Piotrków Trybunalski', 'commune': {'communeName': 'Piotrków Trybunalski', 'districtName': 'Piotrków Trybunalski', 'provinceName': 'ŁÓDZKIE'}}",ul. Krakowskie Przedmieście 13
+331,Radomsko-Rolna2,51.067439,19.448694,"{'id': 773, 'name': 'Radomsko', 'commune': {'communeName': 'Radomsko', 'districtName': 'radomszczański', 'provinceName': 'ŁÓDZKIE'}}",ul. Rolna 2
+562,Żyrardów-Roosevelta,52.053811,20.429892,"{'id': 1130, 'name': 'Żyrardów', 'commune': {'communeName': 'Żyrardów', 'districtName': 'żyrardowski', 'provinceName': 'MAZOWIECKIE'}}",ul. Roosevelta 2
+9913,Guty Duże,52.943172,21.288167,"{'id': 2181, 'name': 'Guty Duże', 'commune': {'communeName': 'Czerwonka', 'districtName': 'makowski', 'provinceName': 'MAZOWIECKIE'}}",Guty Duże 4
+10434,Konstancin-Jeziorna-Wierzejewskiego,52.080625,21.111186,"{'id': 395, 'name': 'Konstancin-Jeziorna', 'commune': {'communeName': 'Konstancin-Jeziorna', 'districtName': 'piaseczyński', 'provinceName': 'MAZOWIECKIE'}}",Wierzejewskiego 12
+10974,Mińsk Mazowiecki-Kazikowskiego,52.178766,21.560968,"{'id': 566, 'name': 'Mińsk Mazowiecki', 'commune': {'communeName': 'Mińsk Mazowiecki', 'districtName': 'miński', 'provinceName': 'MAZOWIECKIE'}}",Zygmunta Kazikowskiego 18
+11358,Biała-Kmicica,52.602534,19.6451,"{'id': 2661, 'name': 'Biała', 'commune': {'communeName': 'Stara Biała', 'districtName': 'płocki', 'provinceName': 'MAZOWIECKIE'}}",ul. Kmicica 33
+590,Opole manualna 4,50.676856,17.950278,"{'id': 645, 'name': 'Opole', 'commune': {'communeName': 'Opole', 'districtName': 'Opole', 'provinceName': 'OPOLSKIE'}}",os. Armii Krajowej
+10374,Opole automat 5,50.666736,17.899137,"{'id': 645, 'name': 'Opole', 'commune': {'communeName': 'Opole', 'districtName': 'Opole', 'provinceName': 'OPOLSKIE'}}",ul. Koszyka 21
+568,K-Koźle automat 1,50.349608,18.236575,"{'id': 355, 'name': 'Kędzierzyn-Koźle', 'commune': {'communeName': 'Kędzierzyn-Koźle', 'districtName': 'kędzierzyńsko-kozielski', 'provinceName': 'OPOLSKIE'}}",ul. Bolesława Śmiałego 5
+584,Olesno automat 4,50.876983,18.416878,"{'id': 636, 'name': 'Olesno', 'commune': {'communeName': 'Olesno', 'districtName': 'oleski', 'provinceName': 'OPOLSKIE'}}",ul. Słowackiego
+600,Zdzieszowice automat 2,50.423533,18.120739,"{'id': 1097, 'name': 'Zdzieszowice', 'commune': {'communeName': 'Zdzieszowice', 'districtName': 'krapkowicki', 'provinceName': 'OPOLSKIE'}}",ul. Piastów 6
+8976,Nysa manualna 3,50.458989,17.331906,"{'id': 628, 'name': 'Nysa', 'commune': {'communeName': 'Nysa', 'districtName': 'nyski', 'provinceName': 'OPOLSKIE'}}",ul. Rodziewiczówny 1
+11399,Prudnik mobilna,50.320858,17.591909,"{'id': 735, 'name': 'Prudnik', 'commune': {'communeName': 'Prudnik', 'districtName': 'prudnicki', 'provinceName': 'OPOLSKIE'}}",ul. Podgórna 5
+16181,Strzelce Opolskie mobilna,50.509334,18.288206,"{'id': 891, 'name': 'Strzelce Opolskie', 'commune': {'communeName': 'Strzelce Opolskie', 'districtName': 'strzelecki', 'provinceName': 'OPOLSKIE'}}",Kardynała Wyszyńskiego 12
+671,Rzeszów-Nowe Miasto,50.024242,22.010575,"{'id': 810, 'name': 'Rzeszów', 'commune': {'communeName': 'Rzeszów', 'districtName': 'Rzeszów', 'provinceName': 'PODKARPACKIE'}}",Rejtana
+10125,Rzeszów-Piłsudskiego,50.040675,22.004656,"{'id': 810, 'name': 'Rzeszów', 'commune': {'communeName': 'Rzeszów', 'districtName': 'Rzeszów', 'provinceName': 'PODKARPACKIE'}}",Piłsudskiego
+631,Jarosław-PWSTE-WIOS,50.012083,22.674772,"{'id': 303, 'name': 'Jarosław', 'commune': {'communeName': 'Jarosław', 'districtName': 'jarosławski', 'provinceName': 'PODKARPACKIE'}}",Pruchnicka
+638,Jaslo-Sikorskiego-WIOS,49.744886,21.454617,"{'id': 306, 'name': 'Jasło', 'commune': {'communeName': 'Jasło', 'districtName': 'jasielski', 'provinceName': 'PODKARPACKIE'}}",Sikorskiego
+646,Krosno-Kletówki,49.690169,21.7497,"{'id': 425, 'name': 'Krosno', 'commune': {'communeName': 'Krosno', 'districtName': 'Krosno', 'provinceName': 'PODKARPACKIE'}}",Kletówki
+659,Nisko-Szklarniowa-WIOS,50.529892,22.112467,"{'id': 600, 'name': 'Nisko', 'commune': {'communeName': 'Nisko', 'districtName': 'niżański', 'provinceName': 'PODKARPACKIE'}}",Szklarniowa
+665,Przemysl-Grunwaldzka-WIOS,49.784339,22.756239,"{'id': 748, 'name': 'Przemyśl', 'commune': {'communeName': 'Przemyśl', 'districtName': 'Przemyśl', 'provinceName': 'PODKARPACKIE'}}",Grunwaldzka
+870,WIOŚ Gołdap ul. Jaćwieska,54.305908,22.307681,"{'id': 241, 'name': 'Gołdap', 'commune': {'communeName': 'Gołdap', 'districtName': 'gołdapski', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",ul. Jaćwieska 17
+882,KMŚ Puszcza Borecka,54.124819,22.038056,"{'id': 167, 'name': 'Diabla Góra', 'commune': {'communeName': 'Kruklanki', 'districtName': 'giżycki', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",Diabla Góra
+10005,WIOŚ Ełk,53.828455,22.34845,"{'id': 203, 'name': 'Ełk', 'commune': {'communeName': 'Ełk', 'districtName': 'ełcki', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",ul. Piłsudskiego 27
+10030,WIOŚ Ostróda Piłsudskiego,53.694628,19.968892,"{'id': 657, 'name': 'Ostróda', 'commune': {'communeName': 'Ostróda', 'districtName': 'ostródzki', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",Piłsudskiego 4
+11375,WIOŚ Biskupiec-Mobilna,53.860702,20.957892,"{'id': 2260, 'name': 'Biskupiec', 'commune': {'communeName': 'Biskupiec', 'districtName': 'olsztyński', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",Mickiewicza 8
+943,Poznan-Polanka,52.398175,16.959519,"{'id': 729, 'name': 'Poznań', 'commune': {'communeName': 'Poznań', 'districtName': 'Poznań', 'provinceName': 'WIELKOPOLSKIE'}}",ul. Polanka
+944,Poznan-Dabrowskiego,52.420319,16.877289,"{'id': 729, 'name': 'Poznań', 'commune': {'communeName': 'Poznań', 'districtName': 'Poznań', 'provinceName': 'WIELKOPOLSKIE'}}",ul. Dąbrowskiego 169
+11477,Poznań - RatajeMOB,52.391728,16.998578,"{'id': 729, 'name': 'Poznań', 'commune': {'communeName': 'Poznań', 'districtName': 'Poznań', 'provinceName': 'WIELKOPOLSKIE'}}",Żelazna
+952,Kalisz-Wyszynskiego,51.749053,18.048389,"{'id': 336, 'name': 'Kalisz', 'commune': {'communeName': 'Kalisz', 'districtName': 'Kalisz', 'provinceName': 'WIELKOPOLSKIE'}}",ul.Wyszyńskiego
+902,Konin-Wyszynskiego,52.225633,18.269036,"{'id': 393, 'name': 'Konin', 'commune': {'communeName': 'Konin', 'districtName': 'Konin', 'provinceName': 'WIELKOPOLSKIE'}}",ul. Wyszyńskiego 3
+920,"Pila, ul. Kusocinkiego",53.154408,16.759572,"{'id': 699, 'name': 'Piła', 'commune': {'communeName': 'Piła', 'districtName': 'pilski', 'provinceName': 'WIELKOPOLSKIE'}}",ul. Kusocińskiego
+946,Piaski-Krzyzowka,52.501389,17.773464,"{'id': 441, 'name': 'Krzyżówka', 'commune': {'communeName': 'Witkowo', 'districtName': 'gnieźnieński', 'provinceName': 'WIELKOPOLSKIE'}}",Piaski 10
+950,Borowiec-Drapalka,52.276794,17.074114,"{'id': 62, 'name': 'Borówiec', 'commune': {'communeName': 'Kórnik', 'districtName': 'poznański', 'provinceName': 'WIELKOPOLSKIE'}}",ul. Drapałka 4
+9218,"Pleszew, Al. Mickiewicza",51.884922,17.791106,"{'id': 706, 'name': 'Pleszew', 'commune': {'communeName': 'Pleszew', 'districtName': 'pleszewski', 'provinceName': 'WIELKOPOLSKIE'}}",al. Mickiewicza
+10834,Kozieglowy-os.Lesne,52.449331,16.999683,"{'id': 2163, 'name': 'Koziegłowy', 'commune': {'communeName': 'Czerwonak', 'districtName': 'poznański', 'provinceName': 'WIELKOPOLSKIE'}}",osiedle Leśne 22
+986,Szczecin_Andrzejewskiego,53.380975,14.663347,"{'id': 917, 'name': 'Szczecin', 'commune': {'communeName': 'Szczecin', 'districtName': 'Szczecin', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",ul. Andrzejewskiego 23
+987,Szczecin_Piłsudskiego,53.432169,14.5539,"{'id': 917, 'name': 'Szczecin', 'commune': {'communeName': 'Szczecin', 'districtName': 'Szczecin', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",ul. Piłsudskiego 1
+966,Koszalin_ArmiiKrajowej,54.193986,16.172544,"{'id': 402, 'name': 'Koszalin', 'commune': {'communeName': 'Koszalin', 'districtName': 'Koszalin', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",ul. Armii Krajowej
+11336,Koszalin_Chopina,54.194117,16.211661,"{'id': 402, 'name': 'Koszalin', 'commune': {'communeName': 'Koszalin', 'districtName': 'Koszalin', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",Chopina 42
+961,Widuchowa,53.122325,14.382222,"{'id': 1025, 'name': 'Widuchowa', 'commune': {'communeName': 'Widuchowa', 'districtName': 'gryfiński', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",ul. Bulwary Rybackie 1
+983,Szczecinek_Przemysłowa,53.6989,16.704572,"{'id': 918, 'name': 'Szczecinek', 'commune': {'communeName': 'Szczecinek', 'districtName': 'szczecinecki', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",ul. Przemysłowa 5
+16157,Uzdrowisko_Połczyn-Zdrój,53.755719,16.089289,"{'id': 724, 'name': 'Połczyn-Zdrój', 'commune': {'communeName': 'Połczyn-Zdrój', 'districtName': 'świdwiński', 'provinceName': 'ZACHODNIOPOMORSKIE'}}",Solankowa 8
+11514,CHojnice - mobilna,53.699954,17.546811,"{'id': 111, 'name': 'Chojnice', 'commune': {'communeName': 'Chojnice', 'districtName': 'chojnicki', 'provinceName': 'POMORSKIE'}}",Plac Emsdetten
+805,"Dąbrowa Górnicza, ul. Tysiąclecia 25a",50.329111,19.231222,"{'id': 157, 'name': 'Dąbrowa Górnicza', 'commune': {'communeName': 'Dąbrowa Górnicza', 'districtName': 'Dąbrowa Górnicza', 'provinceName': 'ŚLĄSKIE'}}",ul. 1000-lecia 25 a
+809,"Gliwice, ul. Mewy 34",50.279481,18.655736,"{'id': 221, 'name': 'Gliwice', 'commune': {'communeName': 'Gliwice', 'districtName': 'Gliwice', 'provinceName': 'ŚLĄSKIE'}}",ul. Mewy 34
+813,"Katowice, ul. Plebiscytowa/A4",50.246795,19.019469,"{'id': 350, 'name': 'Katowice', 'commune': {'communeName': 'Katowice', 'districtName': 'Katowice', 'provinceName': 'ŚLĄSKIE'}}",al. Górnośląska
+814,"Katowice, ul. Kossutha 6",50.264611,18.975028,"{'id': 350, 'name': 'Katowice', 'commune': {'communeName': 'Katowice', 'districtName': 'Katowice', 'provinceName': 'ŚLĄSKIE'}}",ul. Kossutha 6
+837,"Sosnowiec, ul. Lubelska 51",50.285956,19.184399,"{'id': 862, 'name': 'Sosnowiec', 'commune': {'communeName': 'Sosnowiec', 'districtName': 'Sosnowiec', 'provinceName': 'ŚLĄSKIE'}}",ul. Lubelska 51
+841,"Tychy, ul. Tołstoja 1",50.099903,18.990236,"{'id': 988, 'name': 'Tychy', 'commune': {'communeName': 'Tychy', 'districtName': 'Tychy', 'provinceName': 'ŚLĄSKIE'}}",ul. Tołstoja 1
+848,"Zabrze, ul. M. Curie-Skłodowskiej 34",50.3165,18.772375,"{'id': 1073, 'name': 'Zabrze', 'commune': {'communeName': 'Zabrze', 'districtName': 'Zabrze', 'provinceName': 'ŚLĄSKIE'}}",ul. M. Skłodowskiej-Curie 34
+834,"Rybnik, ul. Borki 37 d",50.111181,18.516139,"{'id': 804, 'name': 'Rybnik', 'commune': {'communeName': 'Rybnik', 'districtName': 'Rybnik', 'provinceName': 'ŚLĄSKIE'}}",ul. Borki 37 d
+10554,"Żory, Os. Gen. Władysława Sikorskiego 52_(2)",50.029416,18.689527,"{'id': 1123, 'name': 'Żory', 'commune': {'communeName': 'Żory', 'districtName': 'Żory', 'provinceName': 'ŚLĄSKIE'}}",ul. Sikorskiego 52
+789,"Bielsko-Biała, ul. Kossak-Szczuckiej 19",49.813464,19.027318,"{'id': 41, 'name': 'Bielsko-Biała', 'commune': {'communeName': 'Bielsko-Biała', 'districtName': 'Bielsko-Biała', 'provinceName': 'ŚLĄSKIE'}}",ul. Kossak-Szczuckiej
+10158,"Bielsko-Biała, ul.Partyzantów",49.802075,19.04861,"{'id': 41, 'name': 'Bielsko-Biała', 'commune': {'communeName': 'Bielsko-Biała', 'districtName': 'Bielsko-Biała', 'provinceName': 'ŚLĄSKIE'}}",ul. Partyzantów
+798,"Częstochowa, ul. AK/Jana Pawła II",50.817217,19.118997,"{'id': 146, 'name': 'Częstochowa', 'commune': {'communeName': 'Częstochowa', 'districtName': 'Częstochowa', 'provinceName': 'ŚLĄSKIE'}}",ul. Armii Krajowej 2
+800,"Częstochowa, ul. Baczyńskiego 2",50.836389,19.130111,"{'id': 146, 'name': 'Częstochowa', 'commune': {'communeName': 'Częstochowa', 'districtName': 'Częstochowa', 'provinceName': 'ŚLĄSKIE'}}",ul. Baczyńskiego 2
+842,"Ustroń, ul. Sanatoryjna 7",49.719731,18.826722,"{'id': 993, 'name': 'Ustroń', 'commune': {'communeName': 'Ustroń', 'districtName': 'cieszyński', 'provinceName': 'ŚLĄSKIE'}}",ul. Sanatoryjna 7
+845,"Wodzisław Śląski, ul. Gałczyńskiego 1",50.007629,18.455548,"{'id': 1050, 'name': 'Wodzisław Śląski', 'commune': {'communeName': 'Wodzisław Śląski', 'districtName': 'wodzisławski', 'provinceName': 'ŚLĄSKIE'}}",ul. Gałczyńskiego 1
+853,"Złoty Potok, Leśniczówka",50.710889,19.458797,"{'id': 1111, 'name': 'Złoty Potok', 'commune': {'communeName': 'Janów', 'districtName': 'częstochowski', 'provinceName': 'ŚLĄSKIE'}}",Leśniczówka Kamienna Góra
+856,"Żywiec, ul. Kopernika  83 a",49.671602,19.234446,"{'id': 1131, 'name': 'Żywiec', 'commune': {'communeName': 'Żywiec', 'districtName': 'żywiecki', 'provinceName': 'ŚLĄSKIE'}}",ul. Kopernika 83 a
+9000,"Czerwionka-Leszczyny, ul. Kopalniana",50.16385,18.659977,"{'id': 145, 'name': 'Czerwionka-Leszczyny', 'commune': {'communeName': 'Czerwionka-Leszczyny', 'districtName': 'rybnicki', 'provinceName': 'ŚLĄSKIE'}}",ul. Kopalniana
+11278,"Lubliniec, ul. ks. Szymały",50.675693,18.682065,"{'id': 490, 'name': 'Lubliniec', 'commune': {'communeName': 'Lubliniec', 'districtName': 'lubliniecki', 'provinceName': 'ŚLĄSKIE'}}",ul. Ks. Płk. Jana Szymały 3
+11455,"Zawiercie, ul. K.I.Gałczyńskiego 3",50.493045,19.439012,"{'id': 1086, 'name': 'Zawiercie', 'commune': {'communeName': 'Zawiercie', 'districtName': 'zawierciański', 'provinceName': 'ŚLĄSKIE'}}",ul. K.I.Gałczyńskiego 3
+11457,"Goczałkowice Zdrój, ul. Parkowa",49.93785,18.975594,"{'id': 2280, 'name': 'Goczałkowice-Zdrój', 'commune': {'communeName': 'Goczałkowice-Zdrój', 'districtName': 'pszczyński', 'provinceName': 'ŚLĄSKIE'}}",ul. Parkowa
+11794,"Racibórz, Wojska Polskiego 8",50.091142,18.216261,"{'id': 768, 'name': 'Racibórz', 'commune': {'communeName': 'Racibórz', 'districtName': 'raciborski', 'provinceName': 'ŚLĄSKIE'}}",ul. Wojska Polskiego 8
+11195,"Kielce, ul. Targowa",50.878998,20.633692,"{'id': 360, 'name': 'Kielce', 'commune': {'communeName': 'Kielce', 'districtName': 'Kielce', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",ul. Targowa 3
+769,"Nowiny, ul. Parkowa",50.823108,20.533506,"{'id': 616, 'name': 'Nowiny', 'commune': {'communeName': 'Sitkówka-Nowiny', 'districtName': 'kielecki', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",ul. Parkowa
+778,"Połaniec, ul. Ruszczańska",50.429014,21.277367,"{'id': 723, 'name': 'Połaniec', 'commune': {'communeName': 'Połaniec', 'districtName': 'staszowski', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",ul. Ruszczańska 23
+785,"Starachowice, ul. Złota",51.050611,21.084175,"{'id': 872, 'name': 'Starachowice', 'commune': {'communeName': 'Starachowice', 'districtName': 'starachowicki', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",ul. Złota
+10444,"Ostrowiec Świętokrzyski, MOBILNA",50.946703,21.394492,"{'id': 656, 'name': 'Ostrowiec Świętokrzyski', 'commune': {'communeName': 'Ostrowiec Świętokrzyski', 'districtName': 'ostrowiecki', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",Osiedle Słoneczne 28
+10794,"Małogoszcz, ul. Słoneczna",50.809563,20.266099,"{'id': 531, 'name': 'Małogoszcz', 'commune': {'communeName': 'Małogoszcz', 'districtName': 'jędrzejowski', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",ul. Słoneczna 18
+11754,Gołuchów Ujęcie Wody,50.621482,20.614057,"{'id': 2644, 'name': 'Gołuchów', 'commune': {'communeName': 'Kije', 'districtName': 'pińczowski', 'provinceName': 'ŚWIĘTOKRZYSKIE'}}",Ujęcie Wody
+877,WIOŚ Olsztyn ul. Puszkina,53.789233,20.486075,"{'id': 639, 'name': 'Olsztyn', 'commune': {'communeName': 'Olsztyn', 'districtName': 'Olsztyn', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",ul. Puszkina 16
+861,WIOŚ Elbląg ul. Bażyńskiego,54.167847,19.410942,"{'id': 202, 'name': 'Elbląg', 'commune': {'communeName': 'Elbląg', 'districtName': 'Elbląg', 'provinceName': 'WARMIŃSKO-MAZURSKIE'}}",ul. Bażyńskiego 6
+11616,Kutno-1 Maja 7,52.231728,19.353742,"{'id': 445, 'name': 'Kutno', 'commune': {'communeName': 'Kutno', 'districtName': 'kutnowski', 'provinceName': 'ŁÓDZKIE'}}",1 Maja 7
+400,"Kraków, Aleja Krasińskiego",50.057678,19.926189,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",al. Krasińskiego
+401,"Kraków, ul. Bujaka",50.010575,19.949189,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Bujaka
+402,"Kraków, ul. Bulwarowa",50.069308,20.053492,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Bulwarowa
+10121,"Kraków, ul. Dietla",50.057447,19.946008,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Dietla
+10123,"Kraków, ul. Złoty Róg",50.081197,19.895358,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",Złoty Róg
+10139,"Kraków, os. Piastów",50.098508,20.018269,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",os. Piastów
+10447,"Kraków, os. Wadów",50.100569,20.122561,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",Wadów
+11303,"Kraków, os. Swoszowice",49.991442,19.936792,"{'id': 415, 'name': 'Kraków', 'commune': {'communeName': 'Kraków', 'districtName': 'Kraków', 'provinceName': 'MAŁOPOLSKIE'}}",Lusińska
+444,"Tarnów, ul. Bitwy pod Studziankami",50.020169,21.004167,"{'id': 958, 'name': 'Tarnów', 'commune': {'communeName': 'Tarnów', 'districtName': 'Tarnów', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Bitwy pod Studziankami
+10120,"Tarnów, ul. Ks. Romana Sitko",50.018253,20.992578,"{'id': 958, 'name': 'Tarnów', 'commune': {'communeName': 'Tarnów', 'districtName': 'Tarnów', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Ks. Romana Sitko
+426,"Nowy Sącz, ul. Nadbrzeżna",49.619281,20.714403,"{'id': 623, 'name': 'Nowy Sącz', 'commune': {'communeName': 'Nowy Sącz', 'districtName': 'Nowy Sącz', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Nadbrzeżna
+9173,Dębica-Grottgera-WIOS,50.054786,21.416256,"{'id': 164, 'name': 'Dębica', 'commune': {'communeName': 'Dębica', 'districtName': 'dębicki', 'provinceName': 'PODKARPACKIE'}}",Grottgera 3
+9175,Krempna-MPN-WIOS,49.511297,21.498606,"{'id': 421, 'name': 'Krempna', 'commune': {'communeName': 'Krempna', 'districtName': 'jasielski', 'provinceName': 'PODKARPACKIE'}}",
+10414,Rymanów-Zdrój-Samorząd,49.546539,21.851006,"{'id': 805, 'name': 'Rymanów-Zdrój', 'commune': {'communeName': 'Rymanów', 'districtName': 'krośnieński', 'provinceName': 'PODKARPACKIE'}}",Parkowa 5
+10438,Mielec-Biernackiego-WIOS,50.299128,21.440942,"{'id': 548, 'name': 'Mielec', 'commune': {'communeName': 'Mielec', 'districtName': 'mielecki', 'provinceName': 'PODKARPACKIE'}}",Biernackiego
+12045,Polanczyk-mobilna,49.374208,22.439453,"{'id': 719, 'name': 'Polańczyk', 'commune': {'communeName': 'Solina', 'districtName': 'leski', 'provinceName': 'PODKARPACKIE'}}",Zdrojowa
+605,Białystok-Miejska,53.126689,23.155869,"{'id': 35, 'name': 'Białystok', 'commune': {'communeName': 'Białystok', 'districtName': 'Białystok', 'provinceName': 'PODLASKIE'}}",ul. Waszyngtona 16
+609,Białystok-Warszawska,53.129306,23.181744,"{'id': 35, 'name': 'Białystok', 'commune': {'communeName': 'Białystok', 'districtName': 'Białystok', 'provinceName': 'PODLASKIE'}}",ul. Warszawska 75 A
+612,Borsukowizna-Wiejska,53.215492,23.642153,"{'id': 63, 'name': 'Borsukowizna', 'commune': {'communeName': 'Krynki', 'districtName': 'sokólski', 'provinceName': 'PODLASKIE'}}",
+9994,Grajewo - mobilne ,53.639793,22.470274,"{'id': 258, 'name': 'Grajewo', 'commune': {'communeName': 'Grajewo', 'districtName': 'grajewski', 'provinceName': 'PODLASKIE'}}",ul. Wojska Polskiego 74
+11154,"Suwałki, ul. Pułaskiego 26",54.116056,22.93875,"{'id': 906, 'name': 'Suwałki', 'commune': {'communeName': 'Suwałki', 'districtName': 'Suwałki', 'provinceName': 'PODLASKIE'}}",ul. Pułaskiego 26
+11916,Augustów-Miejska,53.852639,22.984611,"{'id': 8, 'name': 'Augustów', 'commune': {'communeName': 'Augustów', 'districtName': 'augustowski', 'provinceName': 'PODLASKIE'}}",Uzdrowisko
+729,AM1 Gdańsk Śródmieście,54.353336,18.635283,"{'id': 218, 'name': 'Gdańsk', 'commune': {'communeName': 'Gdańsk', 'districtName': 'Gdańsk', 'provinceName': 'POMORSKIE'}}",ul. Powstańców Warszawskich
+731,AM3 Gdańsk Nowy Port,54.400833,18.657497,"{'id': 218, 'name': 'Gdańsk', 'commune': {'communeName': 'Gdańsk', 'districtName': 'Gdańsk', 'provinceName': 'POMORSKIE'}}",ul. Wyzwolenia
+732,AM4 Gdynia Pogórze,54.560836,18.493331,"{'id': 219, 'name': 'Gdynia', 'commune': {'communeName': 'Gdynia', 'districtName': 'Gdynia', 'provinceName': 'POMORSKIE'}}",ul. Porębskiego
+734,AM6 Sopot,54.431667,18.579722,"{'id': 861, 'name': 'Sopot', 'commune': {'communeName': 'Sopot', 'districtName': 'Sopot', 'provinceName': 'POMORSKIE'}}",ul. Bitwy pod Płowcami
+736,AM8 Gdańsk Wrzeszcz,54.380279,18.620274,"{'id': 218, 'name': 'Gdańsk', 'commune': {'communeName': 'Gdańsk', 'districtName': 'Gdańsk', 'provinceName': 'POMORSKIE'}}",ul. Leczkowa
+738,AM9 Gdynia Dąbrowa,54.465758,18.464911,"{'id': 219, 'name': 'Gdynia', 'commune': {'communeName': 'Gdynia', 'districtName': 'Gdynia', 'provinceName': 'POMORSKIE'}}",ul. Szafranowa
+725,AM11 Słupsk Kniaziewicza,54.463611,17.046722,"{'id': 846, 'name': 'Słupsk', 'commune': {'communeName': 'Słupsk', 'districtName': 'Słupsk', 'provinceName': 'POMORSKIE'}}",ul. Kniaziewicza 30
+740,AM12 Kościerzyna Targowa,54.120694,17.975861,"{'id': 406, 'name': 'Kościerzyna', 'commune': {'communeName': 'Kościerzyna', 'districtName': 'kościerski', 'provinceName': 'POMORSKIE'}}",ul. Targowa
+741,AM15 Malbork Mickiewicza,54.031247,19.032899,"{'id': 527, 'name': 'Malbork', 'commune': {'communeName': 'Malbork', 'districtName': 'malborski', 'provinceName': 'POMORSKIE'}}",ul. Mickiewicza
+742,AM16 Lębork Malczewskiego,54.546167,17.746194,"{'id': 464, 'name': 'Lębork', 'commune': {'communeName': 'Lębork', 'districtName': 'lęborski', 'provinceName': 'POMORSKIE'}}",ul. Malczewskiego
+743,AM17 Liniewko Kościerskie,54.104111,18.182972,"{'id': 469, 'name': 'Liniewko Kościerskie', 'commune': {'communeName': 'Nowa Karczma', 'districtName': 'kościerski', 'provinceName': 'POMORSKIE'}}",
+750,IMGW Łeba - Rąbka,54.754139,17.534528,"{'id': 506, 'name': 'Łeba', 'commune': {'communeName': 'Łeba', 'districtName': 'lęborski', 'provinceName': 'POMORSKIE'}}",Rąbka 1a
+437,"Skawina, os. Ogrody",49.971047,19.830422,"{'id': 834, 'name': 'Skawina', 'commune': {'communeName': 'Skawina', 'districtName': 'krakowski', 'provinceName': 'MAŁOPOLSKIE'}}",os. Ogrody
+443,Szymbark,49.633714,21.116833,"{'id': 930, 'name': 'Szymbark', 'commune': {'communeName': 'Gorlice', 'districtName': 'gorlicki', 'provinceName': 'MAŁOPOLSKIE'}}",Szymbark 430
+449,"Trzebinia, os. Związku Walki Młodych",50.159406,19.477464,"{'id': 974, 'name': 'Trzebinia', 'commune': {'communeName': 'Trzebinia', 'districtName': 'chrzanowski', 'provinceName': 'MAŁOPOLSKIE'}}",os. Związku Walki Młodych
+459,"Zakopane, ul. Sienkiewicza",49.293564,19.960083,"{'id': 1076, 'name': 'Zakopane', 'commune': {'communeName': 'Zakopane', 'districtName': 'tatrzański', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Sienkiewicza
+9179,"Szarów, ul. Spokojna",50.0075,20.259167,"{'id': 913, 'name': 'Szarów', 'commune': {'communeName': 'Kłaj', 'districtName': 'wielicki', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Spokojna
+10119,Kaszów,50.025028,19.726833,"{'id': 2042, 'name': 'Kaszów', 'commune': {'communeName': 'Liszki', 'districtName': 'krakowski', 'provinceName': 'MAŁOPOLSKIE'}}",Bory
+10124,"Sucha Beskidzka, ul. Nieszczyńskiej",49.743131,19.600339,"{'id': 897, 'name': 'Sucha Beskidzka', 'commune': {'communeName': 'Sucha Beskidzka', 'districtName': 'suski', 'provinceName': 'MAŁOPOLSKIE'}}",ul. Nieszczyńskiej
+10254,"Nowy Targ, Plac Słowackiego",49.483597,20.028992,"{'id': 626, 'name': 'Nowy Targ', 'commune': {'communeName': 'Nowy Targ', 'districtName': 'nowotarski', 'provinceName': 'MAŁOPOLSKIE'}}",Plac Słowackiego
+10446,"Rabka-Zdrój, ul. Orkana",49.608647,19.966008,"{'id': 767, 'name': 'Rabka-Zdrój', 'commune': {'communeName': 'Rabka-Zdrój', 'districtName': 'nowotarski', 'provinceName': 'MAŁOPOLSKIE'}}",Orkana
+10814,"Oświęcim, ul. J. Bema",50.033083,19.245275,"{'id': 660, 'name': 'Oświęcim', 'commune': {'communeName': 'Oświęcim', 'districtName': 'oświęcimski', 'provinceName': 'MAŁOPOLSKIE'}}",J. Bema
+11280,"Krynica, ul. Bulwary Dietla",49.416978,20.956147,"{'id': 435, 'name': 'Krynica-Zdrój', 'commune': {'communeName': 'Krynica-Zdrój', 'districtName': 'nowosądecki', 'provinceName': 'MAŁOPOLSKIE'}}",Bulwary Dietla
+11301,"Olkusz, ul. Cegielniana",50.284,19.564044,"{'id': 638, 'name': 'Olkusz', 'commune': {'communeName': 'Olkusz', 'districtName': 'olkuski', 'provinceName': 'MAŁOPOLSKIE'}}", Cegielniana
+11314,"Skawina, ul. Studzińskiego",49.983361,19.839572,"{'id': 834, 'name': 'Skawina', 'commune': {'communeName': 'Skawina', 'districtName': 'krakowski', 'provinceName': 'MAŁOPOLSKIE'}}",Studzińskiego
+11434,"Zabierzów, ul. Wapienna",50.116028,19.800639,"{'id': 2300, 'name': 'Zabierzów', 'commune': {'communeName': 'Zabierzów', 'districtName': 'krakowski', 'provinceName': 'MAŁOPOLSKIE'}}",Wapienna
+530,Warszawa-Komunikacyjna,52.219298,21.004724,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",al. Niepodległości 227/233
+531,Warszawa-Podleśna,52.280939,20.962156,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",ul. Podleśna 61
+538,Warszawa-Tołstoja,52.285073,20.933018,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",ul. Tołstoja 2
+550,Warszawa-Ursynów,52.160772,21.033819,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",ul. Wokalna 1
+552,Warszawa-Targówek,52.290864,21.042458,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",ul. Kondratowicza 8
+10955,Warszawa-Chrościckiego,52.207742,20.906073,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",Chrościckiego 16/18
+10956,Warszawa-Bajkowa,52.188474,21.176233,"{'id': 1006, 'name': 'Warszawa', 'commune': {'communeName': 'Warszawa', 'districtName': 'Warszawa', 'provinceName': 'MAZOWIECKIE'}}",Bajkowa 17/21
+497,Płock-Gimnazjum,52.556279,19.687672,"{'id': 707, 'name': 'Płock', 'commune': {'communeName': 'Płock', 'districtName': 'Płock', 'provinceName': 'MAZOWIECKIE'}}",ul. Królowej Jadwigi 4
+501,Płock-Reja,52.550938,19.709791,"{'id': 707, 'name': 'Płock', 'commune': {'communeName': 'Płock', 'districtName': 'Płock', 'provinceName': 'MAZOWIECKIE'}}",ul. Reja 28
+515,Radom-Tochtermana,51.399084,21.147474,"{'id': 771, 'name': 'Radom', 'commune': {'communeName': 'Radom', 'districtName': 'Radom', 'provinceName': 'MAZOWIECKIE'}}",ul. Tochtermana 1
+460,Belsk-IGFPAN,51.83512,20.791556,"{'id': 19, 'name': 'Belsk Duży', 'commune': {'communeName': 'Grójec', 'districtName': 'grójecki', 'provinceName': 'MAZOWIECKIE'}}",Osiedle PAN 1
+466,Granica-KPN,52.285858,20.454653,"{'id': 259, 'name': 'Granica', 'commune': {'communeName': 'Kampinos', 'districtName': 'warszawski zachodni', 'provinceName': 'MAZOWIECKIE'}}",ul. Kampinoski Park Narodowy
+471,Legionowo-Zegrzyńska,52.407578,20.955928,"{'id': 452, 'name': 'Legionowo', 'commune': {'communeName': 'Legionowo', 'districtName': 'legionowski', 'provinceName': 'MAZOWIECKIE'}}",ul. Zegrzyńska 38
+485,Otwock-Brzozowa,52.115725,21.237297,"{'id': 662, 'name': 'Otwock', 'commune': {'communeName': 'Otwock', 'districtName': 'otwocki', 'provinceName': 'MAZOWIECKIE'}}",ul. Brzozowa 2
+488,Piastów-Pułaskiego,52.191728,20.837489,"{'id': 685, 'name': 'Piastów', 'commune': {'communeName': 'Piastów', 'districtName': 'pruszkowski', 'provinceName': 'MAZOWIECKIE'}}",ul. Pułaskiego 6/8
+517,Siedlce-Konarskiego,52.172145,22.282001,"{'id': 823, 'name': 'Siedlce', 'commune': {'communeName': 'Siedlce', 'districtName': 'Siedlce', 'provinceName': 'MAZOWIECKIE'}}",ul. Konarskiego 11
+9778,"Chełmno, Łunawska 3A",53.351975,18.447498,"{'id': 101, 'name': 'Chełmno', 'commune': {'communeName': 'Chełmno', 'districtName': 'chełmiński', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul.   Łunawska 3A
+266,Lublin ul. Obywatelska,51.259431,22.569133,"{'id': 489, 'name': 'Lublin', 'commune': {'communeName': 'Lublin', 'districtName': 'Lublin', 'provinceName': 'LUBELSKIE'}}",ul. Obywatelska 13
+236,BiałaP-Orzechowa,52.029194,23.149389,"{'id': 26, 'name': 'Biała Podlaska', 'commune': {'communeName': 'Biała Podlaska', 'districtName': 'Biała Podlaska', 'provinceName': 'LUBELSKIE'}}",ul. Orzechowa
+248,IMGW-Jarczew,51.814367,21.972375,"{'id': 301, 'name': 'Jarczew', 'commune': {'communeName': 'Wola Mysłowska', 'districtName': 'łukowski', 'provinceName': 'LUBELSKIE'}}",
+282,Lublin-Podmiejska,51.163542,22.598608,"{'id': 1035, 'name': 'Wilczopole', 'commune': {'communeName': 'Głusk', 'districtName': 'lubelski', 'provinceName': 'LUBELSKIE'}}",
+285,Zamość ul. Hrubieszowska 69A,50.716628,23.290247,"{'id': 1081, 'name': 'Zamość', 'commune': {'communeName': 'Zamość', 'districtName': 'Zamość', 'provinceName': 'LUBELSKIE'}}",ul. Hrubieszowska 69A
+9593,Puławy ul. Karpińskiego,51.419047,21.961089,"{'id': 764, 'name': 'Puławy', 'commune': {'communeName': 'Puławy', 'districtName': 'puławski', 'provinceName': 'LUBELSKIE'}}",ul. Karpińskiego 5
+10874,Florianka RPN,50.551894,22.982861,"{'id': 2201, 'name': 'Florianka', 'commune': {'communeName': 'Józefów', 'districtName': 'biłgorajski', 'provinceName': 'LUBELSKIE'}}",-
+11360,Chełm ul.Połaniecka,51.12219,23.47287,"{'id': 100, 'name': 'Chełm', 'commune': {'communeName': 'Chełm', 'districtName': 'Chełm', 'provinceName': 'LUBELSKIE'}}",ul. Połaniecka
+12098,Krasnobrod,50.549297,23.197317,"{'id': 418, 'name': 'Krasnobród', 'commune': {'communeName': 'Krasnobród', 'districtName': 'zamojski', 'provinceName': 'LUBELSKIE'}}",ul. Sanatoryjna
+361,Gorzów Wlkp. ul. Kosynierów Gdyńskich,52.738214,15.228667,"{'id': 246, 'name': 'Gorzów Wielkopolski', 'commune': {'communeName': 'Gorzów Wielkopolski', 'districtName': 'Gorzów Wielkopolski', 'provinceName': 'LUBUSKIE'}}",ul. Kosynierów Gdyńskich
+387,Zielona Góra ul. Krótka,51.939783,15.518861,"{'id': 1103, 'name': 'Zielona Góra', 'commune': {'communeName': 'Zielona Góra', 'districtName': 'Zielona Góra', 'provinceName': 'LUBUSKIE'}}",ul. Krótka
+374,Smolary Bytnickie,52.172222,15.206667,"{'id': 848, 'name': 'Smolary Bytnickie', 'commune': {'communeName': 'Bytnica', 'districtName': 'krośnieński', 'provinceName': 'LUBUSKIE'}}",
+376,Sulęcin ul. Dudka,52.437722,15.122444,"{'id': 903, 'name': 'Sulęcin', 'commune': {'communeName': 'Sulęcin', 'districtName': 'sulęciński', 'provinceName': 'LUBUSKIE'}}",ul. Dudka
+379,Wschowa ul. Kazimierza Wielkiego,51.799722,16.3175,"{'id': 1066, 'name': 'Wschowa', 'commune': {'communeName': 'Wschowa', 'districtName': 'wschowski', 'provinceName': 'LUBUSKIE'}}",ul. Kazimierza Wielkiego
+382,"Żary, ul. Szymanowskiego 8",51.642656,15.127808,"{'id': 1119, 'name': 'Żary', 'commune': {'communeName': 'Żary', 'districtName': 'żarski', 'provinceName': 'LUBUSKIE'}}",ul. Szymanowskiego 8
+145,Toruń Airpointer,53.012261,18.606203,"{'id': 966, 'name': 'Toruń', 'commune': {'communeName': 'Toruń', 'districtName': 'Toruń', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Wały Gen. Sikorskiego 12
+206,Toruń POLICJA,53.028647,18.666103,"{'id': 966, 'name': 'Toruń', 'commune': {'communeName': 'Toruń', 'districtName': 'Toruń', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Dziewulskiego 1
+208,"Toruń, KASZOWNIK",53.017628,18.612808,"{'id': 966, 'name': 'Toruń', 'commune': {'communeName': 'Toruń', 'districtName': 'Toruń', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Przy Kaszowniku
+225,Włocławek OKRZEI,52.658467,19.059314,"{'id': 1046, 'name': 'Włocławek', 'commune': {'communeName': 'Włocławek', 'districtName': 'Włocławek', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Okrzei
+9791,"Włocławek, ul. Kaliska",52.637394,19.044486,"{'id': 1046, 'name': 'Włocławek', 'commune': {'communeName': 'Włocławek', 'districtName': 'Włocławek', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",Kaliska 108 A
+143,Inowrocław Airpointer,52.793122,18.241044,"{'id': 287, 'name': 'Inowrocław', 'commune': {'communeName': 'Inowrocław', 'districtName': 'inowrocławski', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Solankowa
+164,Ciechocinek,52.888422,18.780908,"{'id': 122, 'name': 'Ciechocinek', 'commune': {'communeName': 'Ciechocinek', 'districtName': 'aleksandrowski', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",ul. Tężniowa - Park Tężniowy
+190,Koniczynka,53.080647,18.684258,"{'id': 391, 'name': 'Koniczynka', 'commune': {'communeName': 'Łysomice', 'districtName': 'toruński', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",
+232,Bory Tucholskie,53.662117,17.934017,"{'id': 1104, 'name': 'Zielonka', 'commune': {'communeName': 'Tuchola', 'districtName': 'tucholski', 'provinceName': 'KUJAWSKO-POMORSKIE'}}",

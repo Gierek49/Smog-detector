@@ -27,7 +27,7 @@ maxLng=24.08
 
 
 #Tutaj zmienić jak coś scieżke do pliku
-df = pd.read_csv('PolutionLevel.csv')
+df = pd.read_csv('C:/Users/admin/Source/Repos/Smog-detector/SmogDetector/SmogDetector/Data/PolutionLevel.csv')
 
 
 # In[ ]:

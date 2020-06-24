@@ -11,8 +11,8 @@ namespace SmogDetector.Models
     public class CoordinatesModel
     {
         public int Id { get; set; }
-        public double Latitude { get; set; }
-        public double Longtitude { get; set; }
+        public string Latitude { get; set; }
+        public string Longtitude { get; set; }
         public string AirPollution { get; set; }
     }
 }

@@ -52,12 +52,10 @@
     <None Include="Data.csv" />
     <None Include="DataReader.ipynb" />
     <None Include="Model.ipynb" />
-    <None Include="PolutionLevel.csv" />
     <None Include="stan.csv" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="DataReader.py" />
-    <Content Include="Model.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

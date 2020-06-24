@@ -64,21 +64,7 @@
             }
 
             //wyysłanie post coords//test
-            $(document).ready(function () {
-                $("#btnSave").click(function () {
-                    $.ajax({
-                        type: "POST",
-                        url: "Home/GetCurrentTime",
-                        data: { name: "Konrad" },
-                        contentType: "application/json; charset=utf-8",
-                        dataType: "json",
-                        success: function (msg) {
-                            // Replace the div's content with the page method's return.
-                            alert($("#Result").text(msg.d));
-                        }
-                    });
-                });
-            });
+          
 
             // Marker na klik
             google.maps.event.addListener(map, 'click',
@@ -99,7 +85,33 @@
 
                     document.getElementById('kordynatyX').innerHTML = myLatLng.lat();
 
+                    var dataP = {
+                        Id: 1,
+                        Latitude: myLatLng.lat(),
+                        Longtitude: myLatLng.lng(),
+                        AirPollution: " "
+                    }
 
+                    $.ajax({
+                        type: "POST",
+                        data: JSON.stringify(dataP),
+                        url: "/Home/GetCurrentLevel",
+                        method: "POST",
+                        dataType: 'json',
+                        contentType: "application/json; charset=utf-8",
+                        processData: false,
+                        success: function (response) {
+                            if (response != null && response.success) {
+                                document.getElementById('stanP').innerHTML = response.responseText
+                            } else {
+                                // DoSomethingElse()
+                                alert("Fail");
+                            }
+                        },
+                        error: function (xhr, desc) {
+                            alert(desc + xhr.status);
+                        }
+                    });
 
                 });
 
@@ -109,9 +121,7 @@
     </script>
 
     </script>
-    @{
-        <img src="@Model.URL" class="rounded mx-auto d-block" alt="..." />
-    }
+    
     @using (Html.BeginForm())
     {
 
@@ -132,12 +142,16 @@
 
 
     <div id="coordinates">
-        <p id='kordynatyY'>  </p>
         <p id='kordynatyX'></p>
-        <input type="button" id="btnSave" value="Save" />
+        <p id='kordynatyY'>  </p>
+        <p id="stanP"></pid>
     </div>
 
-
+    <div>
+        @{
+            <img src="@Model.URL" class="rounded mx-auto d-block" alt="..." />
+        }
+    </div>
 
 </body>
 </html>
